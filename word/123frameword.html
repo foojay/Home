@@ -1,0 +1,39 @@
+
+
+<html>
+
+  <head>
+
+    <title>PDFObject example</title>
+
+    <script type="text/javascript" src="../static/js/pdfobject.js"></script>
+
+    <script type="text/javascript">
+
+
+
+      window.onload = function (){
+
+        var myPDF = new PDFObject({ url: "../word/rose.pdf" }).embed();
+
+      };
+
+
+
+    </script>
+
+  </head>
+
+ 
+
+  <body>
+
+    <p>It appears you don't have Adobe Reader or PDF support in this web
+
+    browser. <a href="rose.pdf">Click here to download the PDF</a></p>
+
+  </body>
+
+</html>
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+ <!--  <body data-spy="scroll" data-target="#myAffix"> -->
+  <body>
+
+    {% include header.html %}
+
+
+    <div id="main" class="container main">
+      {{ content }}
+    </div>
+    
+    
+    <div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
+      <a href="javascript:;">
+        <div class="arrow"></div>
+        <div class="stick"></div>
+      </a>
+    </div>
+
+    {% include footer.html %}
+
+
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"foojay"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','7CL7-nNwBqKnVxb-SEHP','2.0.0');
+</script>
+
+
+
+
+
+<!-- 在新窗口中打开 -->
+  <script type="text/javascript">
+	function clock1(){
+	var config = {        		
+		/*the name of the div containing the clock*/
+		divId: "html5-clock",        		        
+		/*set to false if you don't want to use the second hand*/		
+		useSecondHand: "true",        		
+		/*width and height of the clock*/
+		clockWidthAndHeight: "200",      		
+		/*location of the images*/
+		clockFaceImg: "http://foojay.github.io/Home/bg/clockBg.png",
+		hourHandImg: "http://foojay.github.io/Home/bg/hourHand.png",
+		minuteHandImg: "http://foojay.github.io/Home/bg/minuteHand.png",
+		secondHandImg: "http://foojay.github.io/Home/bg/secondHand.png", 
+		/*location of the high res images for retina display*/
+		clockFaceHighResImg: "http://foojay.github.io/Home/bg/clockBgHighRes.png",
+		hourHandHighResImg: "http://foojay.github.io/Home/bg/hourHandHighRes.png",
+		minuteHandHighResImg: "http://foojay.github.io/Home/bg/minuteHandHighRes.png",
+		secondHandHighResImg: "http://foojay.github.io/Home/bg/secondHandHighRes.png",
+		/*Set true to make hand move at steady speed*/
+		smoothRotation: "false",        		
+		/*speed of the second hand. Lower is faster. */
+		/*Must be under 1000. */
+		/*If smooth rotation is true, this does nothing.*/
+		secondHandSpeed: "100"        		        		
+	};        	
+	var myhtml5Clock = new html5Clock(config);        
+	}
+  </script>
+  </body>
+</html>

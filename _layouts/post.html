@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<div class="row">
+  <div id="myArticle" class="col-sm-9">
+    <div class="post-area post">
+      <header>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
+      <hr>
+      <article>
+        {{content}}
+      </article>
+      <hr>
+      <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a><a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a></div>
+      <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    </div>
+    <div class="post-area post comment">
+      <!-- 多说评论框 start -->
+      
+      <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="foojay.github.io{{ page.url }}"></div>
+      
+      <!-- 多说评论框 end -->
+    </div>
+  </div>
+
+  <div id="content" class="col-sm-3">
+    <!-- <div id="myAffix" class="shadow-bottom-center hidden-xs" data-spy="affix" data-offset-top="0" data-offset-bottom="-20"> -->
+    <div id="myAffix" class="shadow-bottom-center hidden-xs" >
+      <div class="categories-list-header">
+        索引
+      </div>
+      <div class="content-text"></div>
+    </div>
+	    <!--效果html开始-->
+<div id="centered"> 
+  <div id="html5-clock" ></div>
+</div>
+<script type="text/javascript">
+    $(function(){
+	
+	clock2();
+	
+	});
+		function clock2(){
+	var config = {        		
+		/*the name of the div containing the clock*/
+		divId: "html5-clock",        		        
+		/*set to false if you don't want to use the second hand*/		
+		useSecondHand: "true",        		
+		/*width and height of the clock*/
+		clockWidthAndHeight: "200",      		
+		/*location of the images*/
+		clockFaceImg: "http://foojay.github.io/Home/bg/clockBg.png",
+		hourHandImg: "http://foojay.github.io/Home/bg/hourHand.png",
+		minuteHandImg: "http://foojay.github.io/Home/bg/minuteHand.png",
+		secondHandImg: "http://foojay.github.io/Home/bg/secondHand.png", 
+		/*location of the high res images for retina display*/
+		clockFaceHighResImg: "http://foojay.github.io/Home/bg/clockBgHighRes.png",
+		hourHandHighResImg: "http://foojay.github.io/Home/bg/hourHandHighRes.png",
+		minuteHandHighResImg: "http://foojay.github.io/Home/bg/minuteHandHighRes.png",
+		secondHandHighResImg: "http://foojay.github.io/Home/bg/secondHandHighRes.png",
+		/*Set true to make hand move at steady speed*/
+		smoothRotation: "false",        		
+		/*speed of the second hand. Lower is faster. */
+		/*Must be under 1000. */
+		/*If smooth rotation is true, this does nothing.*/
+		secondHandSpeed: "100"        		        		
+	};        	
+	var myhtml5Clock = new html5Clock(config);        
+	}
+</script> 
+<!--效果html结束-->
+  </div>
+</div>
