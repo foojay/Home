@@ -1,0 +1,63 @@
+﻿---
+layout: post
+title:  "安装Sublime Text 的方法"
+date:   2016-10-13 15:14:54
+categories: Sublime
+excerpt: 安装Sublime Text 的方法
+---
+
+* content
+{:toc}
+
+
+## 安装 Package Control 的方法：  
+
+也可以安装package control组件，然后直接在线安装：
+
+按Ctrl+`调出console（注：安装有QQ输入法的这个快捷键会有冲突的，输入法属性设置-
+
+输入法管理-取消热键切换至QQ拼音）
+
+粘贴以下代码到底部命令行并回车：  
+ 
+  重启Sublime Text 3。
+  
+  如果在Perferences->package settings中看到package control这一项，则安装成功。
+
+<pre>
+    import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+</pre>
+
+
+顺便贴下Sublime Text2 的代码
+
+<pre>
+    import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation') 
+</pre>
+
+
+
+---
+
+## 用Package Control安装插件的方法：   
+
+如同其他插件一样使用 Package Control 来安装。   
+
+1. 按下 `Ctrl+Shift+p` 进入 Command Palette   
+2. 输入`install`进入 Package Control: Install Package     
+
+![sublime](http://7q5cdt.com1.z0.glb.clouddn.com/SublimeLinter-sublimeLinter.jpg)  
+
+手动安装插件
+1.打开菜单栏里的“Preferences”--->"Browse Packages"，打开包的位置 
+
+![sublime](http://h.hiphotos.baidu.com/exp/w=480/sign=1fe941449d3df8dca63d8e99fd1072bf/43a7d933c895d143c26dab9071f082025aaf076d.jpg)
+
+2.然后将下载的好插件直接放置到Packages目录，重启Sublime 插件就会安装成功了。
+
+![sublime](http://b.hiphotos.baidu.com/exp/w=480/sign=88b6ec5ea344ad342ebf868fe0a30c08/8d5494eef01f3a2934609b7d9b25bc315d607cdc.jpg)
+
+
+### 参考文献
+* [键盘侠](https://www.cnsecer.com/460.html)
+
