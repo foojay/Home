@@ -1,9 +1,9 @@
-﻿---
+---
 layout: post
-title:  "java常用工具类"
+title:  "java常用类"
 date:   2016-12-21 13:24:00
 categories: java util
-excerpt: java常用工具类
+excerpt: java常用类
 ---
 
 * content
