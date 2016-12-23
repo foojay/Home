@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title:  "java常用工具类"
 date:   2016-12-21 13:24:00
@@ -287,7 +287,39 @@ jackson-mapper-asl-1.9.12.jar
       }     
       }
 
+### 枚举
 
+    public enum ResourceTypeEnum {
+    LEARINING_GUIDE("3001", "学习指导"),
+    DEMO_DRAFT("3002", "演示文稿"),
+    TEACHING_VIDEO("3003", "教学录像"),
+    WORKER_PAPER("3004", "作业/试卷"),
+    TRAING_RESOURCE("3005", "实验/实训/实习资源"),
+    PRO_BOOK("3006", "专业书籍"),
+    SIMULATION("3007", "仿真"),
+    WEBSITE("3008", "网址"),
+    PRE_EXP("3009", "前人讲解"),
+    PHY_DIS("3010", "实物发现");
+    
+      private String value;
+      private String text;
+      ResourceTypeEnum(String value, String text) {
+          this.text = text;
+          this.value = value;
+      }
+      public static ResourceTypeEnum getEnumByValue(String value) {
+          for (ResourceTypeEnum item : ResourceTypeEnum.values()) {
+              if (item.value.equals(value)) return item;
+          }
+          return null;
+      }
+      public String getValue() {
+          return value;
+      }
+      public String getText() {
+          return text;
+      }
+    }
 
 
 
