@@ -327,7 +327,7 @@ Mybatis的sql映射文件。Mybatis同样支持注解方式，在此不予举例
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-    <mapper namespace="cn.no7player.mapper.UserMapper">
+    <mapper namespace="com.wt.mapper.UserMapper">
      
       <select id="findUserInfo" resultType="com.wt.model.User">
         select name, age,password from user;
@@ -345,7 +345,84 @@ Mybatis的sql映射文件。Mybatis同样支持注解方式，在此不予举例
         public User findUserInfo();
     }
 
+
+### 项目部署到tomcat
+
+
+要部署在自己的Tomcat中的时候需要添加Java EE,或者是J2EE依赖包。否则在Application类中继承SpringBootServletInitializer的时候会报错。
+
+      　　<!--如果要部署到自己的tomcat中，这一项配置必不可少，否则生成的war文件将无法执行。 如果不用部署到自己的Tomcat中，这一个依赖可以去掉-->
+              <dependency>
+                  <groupId>org.springframework.boot</groupId>
+                  <artifactId>spring-boot-starter-tomcat</artifactId>
+                  <scope>provided</scope>
+              </dependency>
+      　　<!--在用maven 编译，打包过程中会出现javax.servlet找不到的情况，所以需要在这里配置-->
+              <dependency>
+                  <groupId>javax.servlet</groupId>
+                  <artifactId>javax.servlet-api</artifactId>
+              </dependency>
+
+
+      import org.springframework.boot.SpringApplication;
+      import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+      import org.springframework.boot.builder.SpringApplicationBuilder;
+      import org.springframework.boot.context.web.SpringBootServletInitializer;
+      import org.springframework.context.annotation.ComponentScan;
+      import org.springframework.context.annotation.Configuration;
+      @Configuration
+      @ComponentScan
+      @EnableAutoConfiguration
+      public class Application extends SpringBootServletInitializer {
+          public static void main(String[] args) {
+              SpringApplication.run(Application.class, args);
+          }
+      　　/**
+           * 如果要发布到自己的Tomcat中的时候，需要继承SpringBootServletInitializer类，并且增加如下的configure方法。
+           * 如果不发布到自己的Tomcat中的时候，就无需上述的步骤
+           */
+          protected SpringApplicationBuilder configure(
+                  SpringApplicationBuilder application) {
+              return application.sources(Application.class);
+          }
+      }
+
+
+
+这里还要多说一句， SpringBoot 默认有内嵌的 tomcat 模块，因此，我们要把这一部分排除掉。
+即：我们在 spring-boot-starter-web 里面排除了 spring-boot-starter-tomcat ，但是我们为了在本机测试方便，我们还要引入它，所以我们这样写：
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <exclusions>
+            <exclusion>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-tomcat</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+    <!--provided 发布到tomcat不打包>
+    <dependency>
+                  <groupId>org.springframework.boot</groupId>
+                  <artifactId>spring-boot-starter-tomcat</artifactId>
+                  <scope>provided</scope>
+    </dependency>
+
+
+另外，我们还可以使用 war 插件来定义打包以后的 war 包名称，以免 maven 为我们默认地起了一个带版本号的 war 包名称。例如：
+
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+            <warName>springboot</warName>
+        </configuration>
+    </plugin>
+
+
 ### 参考文献
 
 *[7player](http://7player.cn/2015/08/30/%E3%80%90%E5%8E%9F%E5%88%9B%E3%80%91%E5%9F%BA%E4%BA%8Espringboot-mybatis%E5%AE%9E%E7%8E%B0springmvc-web%E9%A1%B9%E7%9B%AE/)
+*[李威威的专栏](http://blog.csdn.net/lw_power/article/details/46843489)
 
