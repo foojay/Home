@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Spring Boot 资源映射"
 date:   2017-02-05 10:39:00
