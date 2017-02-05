@@ -263,6 +263,69 @@ Servlet需要@WebServlet 注解
 
 至于如何使用代码的方式注册Filter和Listener，请参考Servlet的介绍。不同的是需要使用 FilterRegistrationBean 和 ServletListenerRegistrationBean 这两个类。
 
+### 拦截器
+
+实现自定义拦截器只需要3步：
+1、创建我们自己的拦截器类并实现 HandlerInterceptor 接口。
+2、创建一个Java类继承WebMvcConfigurerAdapter，并重写 addInterceptors 方法。
+2、实例化我们自定义的拦截器，然后将对像手动添加到拦截器链中（在addInterceptors方法中添加）。
+
+** 创建拦截器
+
+        package com.wt.interceptor;
+        import javax.servlet.http.HttpServletRequest;
+        import javax.servlet.http.HttpServletResponse;
+        import org.slf4j.Logger;
+        import org.slf4j.LoggerFactory;
+        import org.springframework.stereotype.Component;
+        import org.springframework.web.servlet.HandlerInterceptor;
+        import org.springframework.web.servlet.ModelAndView;
+        @Component
+        public class MyInterceptor implements HandlerInterceptor {
+             private Logger logger = LoggerFactory.getLogger(MyInterceptor.class);
+            @Override
+            public void afterCompletion(HttpServletRequest arg0,
+                    HttpServletResponse arg1, Object arg2, Exception arg3)
+                    throws Exception {
+                
+                logger.info(">>>MyInterceptor1>>>>>>>在整个请求结束之后被调用，也就是在DispatcherServlet 渲染了对应的视图之后执行（主要是用于进行资源清理工作）");
+            }
+            @Override
+            public void postHandle(HttpServletRequest arg0, HttpServletResponse arg1,
+                    Object arg2, ModelAndView arg3) throws Exception {
+                logger.info(">>>MyInterceptor1>>>>>>>请求处理之后进行调用，但是在视图被渲染之前（Controller方法调用之后）");
+                
+            }
+            @Override
+            public boolean preHandle(HttpServletRequest arg0, HttpServletResponse arg1,
+                    Object arg2) throws Exception {
+                // TODO Auto-generated method stub
+                logger.info(">>>MyInterceptor1>>>>>>>在请求处理之前进行调用（Controller方法调用之前）");
+                return true;
+            }
+        }
+
+** 创建一个Java类继承WebMvcConfigurerAdapter，并重写 addInterceptors 方法，然后将对像手动添加到拦截器链中
+
+        package com.wt.config;
+        import org.springframework.context.annotation.Configuration;
+        import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+        import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+        import com.wt.interceptor.MyInterceptor;
+        @Configuration
+        public class MyWebAppConfigurer extends WebMvcConfigurerAdapter{
+            @Override
+            public void addInterceptors(InterceptorRegistry registry) {
+                // 多个拦截器组成一个拦截器链
+                // addPathPatterns 用于添加拦截规则
+                // excludePathPatterns 用户排除拦截
+                registry.addInterceptor(new MyInterceptor()).addPathPatterns("/**");
+                super.addInterceptors(registry);
+            }
+        }
+
+
+
 
 ### 参考文献
 
