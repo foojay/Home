@@ -2,7 +2,7 @@
 layout: post
 title:  "springboot框架"
 date:   2017-01-04 14:39:00
-categories: springboot
+categories: spring-boot
 excerpt: springboot框架
 ---
 
