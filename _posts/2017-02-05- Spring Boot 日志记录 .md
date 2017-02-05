@@ -11,6 +11,7 @@ excerpt:  Spring Boot 日志记录
 
 默认情况下，spring boot使用Logback作为日志实现的框架
 下面有2中方式配置
+
 ### logback配置
 
 Spring Boot 提供了一套日志系统，logback是最优先的选择。配置了logback.xml可以利用Spring Boot提供的默认日志配置：
