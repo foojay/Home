@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title:  "java常用类"
 date:   2016-12-21 13:24:00
-categories: java util
+categories: java
 excerpt: java常用类
 ---
 
