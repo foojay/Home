@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  " Spring Boot 日志记录  "
 date:   2017-02-05 13:39:00
@@ -238,7 +238,7 @@ application.properties配置文件
         </Loggers>  
     </Configuration>
 
-这样，我们便能在程序中使用log了，目前我们的日志是在控制台进行输出，如果需要输出到文件中的话，添加<AppenderRef ref="File" />即可
+这样，我们便能在程序中使用log了，目前我们的日志是在控制台进行输出，如果需要输出到文件中的话，添加AppenderRef ref="File"即可
 
 最后在application.properties文件中，指定加载的log文件位置：
 
