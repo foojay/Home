@@ -266,6 +266,6 @@ Servlet需要@WebServlet 注解
 
 ### 参考文献
 
-*[小单的博客专栏](http://blog.csdn.net/catoop/article/details/50501688)
-*[李威威的专栏](http://blog.csdn.net/lw_power/article/details/46843489)
+* [小单的博客专栏](http://blog.csdn.net/catoop/article/details/50501688)
+* [李威威的专栏](http://blog.csdn.net/lw_power/article/details/46843489)
 
