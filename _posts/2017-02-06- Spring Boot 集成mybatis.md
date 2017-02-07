@@ -127,6 +127,11 @@ Spring Boot 集成MyBatis有两种方式，一种简单的方式就是使用MyBa
 
 这个配置一定要注意@AutoConfigureAfter(MyBatisConfig.class)，必须有这个配置，否则会有异常。原因就是这个类执行的比较早，由于sqlSessionFactory还不存在，后续执行出错。
 
+或者直接用注解 如下：
+
+在MyBatisConfig类上加注解@MapperScan("com.wt.mapper")
+MyBatisMapperScannerConfig这个类可不用
+
 
 ### Spring Boot 集成druid
 

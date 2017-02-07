@@ -31,10 +31,13 @@ Druid可以做什么？
 
 ### Spring Boot与Druid的集成
 
-包含：  
-*  MySQL Driver驱动包
-*  Spring Boot的JPA依赖包
-*  阿里系的Druid依赖包
+包含：
+
+*   MySQL Driver驱动包
+*   Spring Boot的JPA依赖包
+*   阿里系的Druid依赖包
+
+pom配置:
 
     <dependency>  
                 <groupId>mysql</groupId>  
@@ -50,6 +53,9 @@ Druid可以做什么？
                     <artifactId>druid</artifactId>  
                     <version>1.0.25</version>  
         </dependency>  
+
+
+
 
 
 Spring Boot中的application.properties配置信息：
