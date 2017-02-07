@@ -76,7 +76,7 @@ Spring Boot将尝试校验外部的配置，默认使用JSR-303（如果在class
 
 *  @Component
 泛指组件，当组件不好归类的时候，我们可以使用这个注解进行标注。一般公共的方法我会用上这个注解
-不加这个注解的话, 使用@Autowired 就不能注入进去了
+不加这个注解的话, 使用@Autowired 就不能注入进去或者在要注入的类上加@EnableConfigurationProperties(WeUser.class)注解就可以不加@Component注解
 
 ### @AutoWired注解
 
