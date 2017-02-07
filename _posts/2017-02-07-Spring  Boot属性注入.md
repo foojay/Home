@@ -1,9 +1,9 @@
----
+﻿---
 layout: post
-title:  "Spring 属性注入"
+title:  "Spring Boot 属性注入"
 date:   2017-02-07 17:27:00
 categories: springboot
-excerpt:  Spring 属性注入
+excerpt:  Spring Boot 属性注入
 ---
 
 * content
