@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title:  "Spring Boot 启动加载数据 CommandLineRunner"
 date:   2017-02-05 13:39:00
-categories: spring-boot
+categories: springboot
 excerpt: Spring Boot 启动加载数据 CommandLineRunner 
 ---
 
