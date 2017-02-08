@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Spring Boot 属性注入"
 date:   2017-02-07 17:27:00
