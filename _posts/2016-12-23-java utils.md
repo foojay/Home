@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "java常用类"
 date:   2016-12-21 13:24:00
@@ -126,6 +126,66 @@ jackson-mapper-asl-1.9.12.jar
       }
       }
 
+
+
+    /**
+     + ClassName:CommonsUtil <br/>
+     + Function:  重用功能. <br/>
+     + Reason:    ADD REASON. <br/>
+     + Date:     2015年10月17日 下午4:20:55 <br/>
+     + @version  
+     + @since    JDK 1.6
+     + @see    
+     */
+    public class CommonsUtil {
+      
+      /***
+       + json字符串转换为对象
+       + @param param
+       + @param obj
+       + @return
+       */
+      @SuppressWarnings({ "rawtypes", "unchecked" })
+      public static Object paramConvertObj(String param,Class obj){
+        return JsonBinder.buildNonNullBinder().fromJson(param, obj);
+      }
+      
+      
+      /***
+       + 将json信息发送给前台展现
+       + 
+       + @param fangleComments
+       */
+      //json/jsonp格式
+      public static String returnObjectToJson(Object obj) {
+        
+        return JsonBinder.buildNonNullBinder().toJson(obj);
+      }
+    }
+
+
+
+
+
+
+
+
+字符串转bean
+
+    public String uploadNode(Invocation inv @Param("knowledgeList") String knowledgeList)
+          throws Exception {
+        // json-->model
+        JsonBinder jb = JsonBinder.buildNormalBinder();
+        // 解析knowledgeList
+        JavaType _k_javaType = jb.getCollectionType(ArrayList.class, Knowledge.class);
+         List<Knowledge> knowledges = StringUtils.isBlank(knowledgeList) ? new ArrayList<Knowledge>()
+          : (List<Knowledge>) jb.getReadValue(knowledgeList, _k_javaType);
+
+
+
+
+
+
 ### ResponseObject
 
       /**
@@ -176,6 +236,12 @@ jackson-mapper-asl-1.9.12.jar
             this.status = status;
       }
       }
+
+bean转字符串
+
+
+    CommonsUtil.returnObjectToJson(ResponseObject.newSuccessResponseObject("aaa")
+
 
 ### 分页
 
