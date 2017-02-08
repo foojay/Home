@@ -112,7 +112,7 @@ byType方式。把配置好的Bean拿来用，完成属性、方法的组装，�
 
 
 
-###JPA注解
+### JPA注解
 
 * @Entity：
 * @Table(name="")：
