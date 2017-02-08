@@ -59,9 +59,16 @@ xml:
 
 上面的where标签，其实用trim 可以表示如下：
 
-    <trim prefix="WHERE" prefixOverrides="AND |OR ">
-      ... 
+     <select id="findUserInfo" resultMap="userList" parameterType="java.lang.String">
+      select *  from we_user
+      <trim prefix="WHERE" prefixOverrides="AND |OR ">
+      <if test="userName !=null">
+            username=#{userName}
+          </if>
+          and status=0
     </trim>
+     
+    </select>
 
 它的意思就是： 当WHERE后紧随AND或则OR的时候，就去除AND或者OR。 除了WHERE以外， 其实还有一个比较经典的实现，那就是SET。
 
