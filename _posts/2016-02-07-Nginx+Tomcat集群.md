@@ -70,21 +70,16 @@ excerpt:  Nginx+Tomcat集群
 
 改成
 
- <!-- You should set jvmRoute to support load-balancing via AJP ie :
-
-  <Engine name="Standalone" defaultHost="localhost" jvmRoute="jvm1">        
-
- -->
-
+     <!-- You should set jvmRoute to support load-balancing via AJP ie :
+      <Engine name="Standalone" defaultHost="localhost" jvmRoute="jvm1">        
+     -->
     <Engine name="Standalone" defaultHost="localhost" jvmRoute="tomcat1">
 
 同时把tomcat2中此处内容改成
 
- <!-- You should set jvmRoute to support load-balancing via AJP ie :
-
- <Engine name="Standalone" defaultHost="localhost" jvmRoute="jvm1">        
- -->
-
+     <!-- You should set jvmRoute to support load-balancing via AJP ie :
+     <Engine name="Standalone" defaultHost="localhost" jvmRoute="jvm1">        
+     -->
     <Engine name="Standalone" defaultHost="localhost" jvmRoute="tomcat2">
 
 7）
@@ -95,17 +90,12 @@ excerpt:  Nginx+Tomcat集群
 
 的下面与在
 
- <!-- The request dumper valve dumps useful debugging information about
-
-  the request and response data received and sent by Tomcat.
-
-   Documentation at: /docs/config/valve.html -->
-
- <!--
-
-<Valve className="org.apache.catalina.valves.RequestDumperValve"/>
-
--->
+     <!-- The request dumper valve dumps useful debugging information about
+      the request and response data received and sent by Tomcat.
+       Documentation at: /docs/config/valve.html -->
+     <!--
+    <Valve className="org.apache.catalina.valves.RequestDumperValve"/>
+    -->
 
 之上，在这之间加入如下一大陀的东西：
 
