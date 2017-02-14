@@ -150,7 +150,7 @@ excerpt:  Nginx+Tomcat集群
 使该工程中的session可以被tomcat的集群节点进行轮循复制。
 
 
-### Nginx配置
+###  Nginx配置
 
     http {
         include       mime.types;
