@@ -245,6 +245,13 @@ bean转字符串
 
 ### 分页
 
+SQL分页语句
+
+    select top 5 numComImg.* from 
+    (select row_number() over(order by SubjectGuid asc) as rownumber,* from (select *  FROM [InformationTwo].[dbo].[Tb_Subjects]) as comImg)
+     as numComImg where rownumber>0
+
+
 业务层
 
       public Page<Resource> getResource(int pageNum, int pageSize,Resource r){
