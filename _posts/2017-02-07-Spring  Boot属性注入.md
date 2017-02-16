@@ -19,6 +19,9 @@ excerpt:  Spring Boot 属性注入
     foo.security.username=admin
     foo.security.password=123456
     foo.security.roles=admin,student
+    # 多环境配置文件激活属性
+    #spring.profiles.active=dev   //启用application-dev.properties
+
 
 
 读取配置文件映射POJO
