@@ -79,6 +79,8 @@ show variables like 'server_id';
 
         create user 'test'@'127.0.0.1' identified by '123456';
         GRANT REPLICATION SLAVE ON *.* TO 'test'@'127.0.0.1'; 
+        #生效。该操作很重要！
+         FLUSH PRIVILEGES;
 
 这里我指定数据库（test.*）时报错，而指定全库（*.*）时会成功。
 
