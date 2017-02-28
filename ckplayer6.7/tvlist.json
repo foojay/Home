@@ -1,16 +1,67 @@
 {
     "list": [
         {
-            "Name": "CCTV-3HD",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617276571_5"
+            "Name": "CCTV1综合",
+            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/hd_cctv1/z.m3u8"
         },
         {
-            "Name": "CCTV-4",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/608807419_4"
+            "Name": "CCTV-2财经",
+            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/cctv2/z.m3u8"
         },
         {
-            "Name": "CCTV-6HD",
+            "Name": "CCTV-3综艺",
+            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/cctv3/z.m3u8"
+        },
+		 {
+            "Name": "CCTV-4中文国际",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv4/z.m3u8"
+        },
+		 {
+            "Name": "CCTV-5体育",
+            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/hd_cctv5/z.m3u8"
+        },
+		 {
+            "Name": "CCTV-6电影",
             "Url": "http://218.244.147.118:6389/wtvlive/migu2/617300489_5"
+        },
+		 {
+            "Name": "CCTV-7军事农业",
+            "Url": "http://120.31.66.11:8080/hls/live-cctv7hd-071/stream800/index.m3u8"
+        }，
+		{
+            "Name": "CCTV-8电视剧",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617300502_5"
+        }，{
+            "Name": "CCTV-9英",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609006487_4"
+        }，{
+            "Name": "CCTV-10HD",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617290240_5"
+        }，
+		{
+            "Name": "CCTV-10HD",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617290240_5"
+        }，
+		{
+            "Name": "CCTV-11",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017121_4"
+        }，
+		{
+            "Name": "CCTV-12",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017191_4"
+        }，
+		{
+            "Name": "CCTV-14HD",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617290149_5"
+        }，
+		{
+            "Name": "CCTV-NEWS",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017205_4"
         }
+		
+	
+		
+		
+		
     ]
 }
