@@ -65,6 +65,10 @@
 		{
             "Name": "香港卫视",
             "Url": "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
+        },
+		{
+            "Name": "泰国VTV4",
+            "Url": "http://61.222.191.61/live/ch28/playlist.m3u8"
         }
     ]
 }
