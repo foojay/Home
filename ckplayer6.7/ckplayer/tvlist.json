@@ -1,0 +1,17 @@
+{
+    "list": [
+        {
+            "Name": "CCTV-3HD",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617276571_5"
+        },
+        {
+            "Name": "CCTV-4",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/608807419_4"
+        },
+        {
+            "Name": "CCTV-6HD",
+            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617300489_5"
+        }
+    ]
+}
+
