@@ -58,6 +58,9 @@
         },{
             "Name": "CCTV-NEWS",
             "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017205_4"
+        },{
+            "Name": "澳大利亚ABCNews",
+            "Url": "http://hls.live.kksmg.com/live/live24h/playlist.m3u8"
         }
     ]
 }
