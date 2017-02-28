@@ -61,6 +61,10 @@
         },{
             "Name": "澳大利亚ABCNews",
             "Url": "http://hls.live.kksmg.com/live/live24h/playlist.m3u8"
+        },
+		{
+            "Name": "香港卫视",
+            "Url": "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
         }
     ]
 }
