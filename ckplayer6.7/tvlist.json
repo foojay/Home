@@ -69,6 +69,11 @@
 		{
             "Name": "泰国VTV4",
             "Url": "http://61.222.191.61/live/ch28/playlist.m3u8"
+        },
+        {
+            "Name": "亚洲联合卫视",
+            "Url": "http://tv.unbtv.tv/app_2/ls_1.stream/playlist.m3u8"
         }
+        
     ]
 }
