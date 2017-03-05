@@ -1,4 +1,4 @@
-{
+﻿{
     "list": [
         {
             "Name": "CCTV1综合",
@@ -73,7 +73,10 @@
         {
             "Name": "亚洲联合卫视",
             "Url": "http://tv.unbtv.tv/app_2/ls_1.stream/playlist.m3u8"
-        }
-        
+        },
+        {
+            "Name": "TVBS新闻台",
+            "Url": "http://bcoveliveios-i.akamaihd.net/hls/live/255247/4005328949001_8/playlist.m3u8"
+        } 
     ]
 }
