@@ -38,23 +38,23 @@
         },
         {
             "Name": "CCTV-10HD",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617290240_5"
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv10/z.m3u8"
         },
         {
-            "Name": "CCTV-10HD",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617290240_5"
+            "Name": "CCTV-风云足球",
+            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/fyzq/z.m3u8"
         },
         {
             "Name": "CCTV-11",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017121_4"
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv11/z.m3u8"
         },
         {
             "Name": "CCTV-12",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017191_4"
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv12/z.m3u8"
         },
         {
             "Name": "CCTV-14HD",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617290149_5"
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv14/z.m3u8"
         },{
             "Name": "CCTV-NEWS",
             "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017205_4"
