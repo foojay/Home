@@ -77,6 +77,34 @@
         {
             "Name": "TVBS新闻台",
             "Url": "http://bcoveliveios-i.akamaihd.net/hls/live/255247/4005328949001_8/playlist.m3u8"
-        } 
+        },
+        {
+            "Name": "北京卫视高清",
+            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_bjws/z.m3u8"
+        },
+        {
+            "Name": "广东卫视高清",
+            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_gdws/z.m3u8"
+        },
+        {
+            "Name": "黑龙江卫视高清",
+            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hljws/z.m3u8"
+        },
+        {
+            "Name": "湖北卫视高清",
+            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hbws/z.m3u8"
+        },
+        {
+            "Name": "江苏卫视高清",
+            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_jsws/z.m3u8"
+        },
+        {
+            "Name": "浙江卫视高清",
+            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_zjws/z.m3u8"
+        },
+        {
+            "Name": "天津卫视高清",
+            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_tjws/z.m3u8"
+        }            
     ]
 }
