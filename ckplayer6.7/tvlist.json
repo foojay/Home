@@ -75,6 +75,10 @@
             "Url": "http://61.222.191.61/live/ch28/playlist.m3u8"
         },
         {
+            "Name": "宏观卫视",
+            "Url": "http://mobile.ccdntech.com/live/_definst_/vod62_Live/live1/playlist.m3u8"
+        },
+        {
             "Name": "亚洲联合卫视",
             "Url": "http://tv.unbtv.tv/app_2/ls_1.stream/playlist.m3u8"
         },
@@ -137,8 +141,22 @@
         {
             "Name": "纬来体育",
             "Url": "http://61.216.79.193/live/ch07/playlist.m3u8"
+        },
+        {
+            "Name": "凤凰中文",
+            "Url": "http://222.37.159.225:13164/playurl.m3u8?playtype=live&accesstoken=R5882FE1AU30616625K7735D9A8M301AF7AW3532625&programid=4200000155&playtoken=ABCDEFGH"
+        },
+        {
+            "Name": "翡翠台",
+            "Url": "http://wshls.acgvideo.com/live/live_19326124_9434677/playlist.m3u8"
+        },
+        {
+            "Name": "NHK",
+            "Url": "http://61.222.191.25/live/ch13/playlist.m3u8"
+        },
+        {
+            "Name": "TITV",
+            "Url": "http://waaarplive03-lh.akamaihd.net/i/titv_1@191631/index_1400_av-p.m3u8?sd=10&rebase=on"
         }
-
-
     ]
 }
