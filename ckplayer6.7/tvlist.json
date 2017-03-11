@@ -62,6 +62,10 @@
             "Name": "澳大利亚ABCNews",
             "Url": "http://hls.live.kksmg.com/live/live24h/playlist.m3u8"
         },
+        {
+            "Name": "凤凰资讯",
+            "Url": "http://61.216.91.103/live/ch20/playlist.m3u8"
+        },
 		{
             "Name": "香港卫视",
             "Url": "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
@@ -105,6 +109,22 @@
         {
             "Name": "天津卫视高清",
             "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_tjws/z.m3u8"
-        }            
+        },
+        {
+            "Name": "GTV八大第1台",
+            "Url": "http://61.216.131.1/live/ch23/playlist.m3u8"
+        },
+        {
+            "Name": "GTV八大綜合",
+            "Url": "http://61.216.131.1/live/ch25/index.m3u8"
+        },
+        {
+            "Name": "澳亚卫视",
+            "Url": "http://live.mastvnet.com/n1rtlHG/500/live.m3u8
+        },
+        {
+            "Name": "乐云香港电影",
+            "Url": "http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hkmovie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1"
+        }                     
     ]
 }
