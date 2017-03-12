@@ -209,11 +209,46 @@
          {
             "Name": "浙江少儿",
             "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/zjse/z.m3u8"
-        },
+        }
+        ,
          {
             "Name": "浙江影视娱乐",
             "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv5/z.m3u8"
         }
+        ,
+         {
+            "Name": "嘉兴新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/jxtv1/z.m3u8"
+        },
+         {
+            "Name": "湖州新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/hztv1/z.m3u8"
+        },
+         {
+            "Name": "金华新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/jhtv1/z.m3u8"
+        },
+         {
+            "Name": "丽水新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/lstv1/z.m3u8"
+        },
+         {
+            "Name": "宁波新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/nbtv1/z.m3u8"
+        },
+         {
+            "Name": "衢州新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/qztv1/z.m3u8"
+        },
+         {
+            "Name": "绍兴新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/sxtv1/z.m3u8"
+        },
+         {
+            "Name": "台州新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/tztv1/z.m3u8"
+        }
     ]
 }
+
 
