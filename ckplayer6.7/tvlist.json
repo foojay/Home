@@ -173,6 +173,47 @@
         {
             "Name": "南充公共",
             "Url": "http://live.ncntv.com.cn:9600/relay/live2/tzwj_video.m3u8"
+        },
+        {
+            "Name": "杭州体育少儿",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv5/z.m3u8"
+        },
+        {
+            "Name": "杭州西湖明珠",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv2/z.m3u8"
+        },
+        {
+            "Name": "杭州影视",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv4/z.m3u8"
+        },
+        {
+            "Name": "杭州综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv1/z.m3u8"
+        },
+        {
+            "Name": "浙江公共农村",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv7/z.m3u8"
+        },
+        {
+            "Name": "浙江教育科技",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv4/z.m3u8"
+        },
+        {
+            "Name": "浙江经视",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv3/z.m3u8"
+        },
+         {
+            "Name": "浙江民生休闲",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv6/z.m3u8"
+        },
+         {
+            "Name": "浙江少儿",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/zjse/z.m3u8"
+        },
+         {
+            "Name": "浙江影视娱乐",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv5/z.m3u8"
         }
     ]
 }
+
