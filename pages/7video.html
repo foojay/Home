@@ -137,8 +137,11 @@ permalink: /video/
 </head>
 <body>
 <script type="text/javascript" src="http://www.ckplayer.com/static/js/laycode/laycode2.js"></script>
-    <div class="c_title"><marquee align="absmiddle"><font size=+3 color=red>欢迎进入我的博客</font></marquee></div>
-    <div class="clearfix">
+    <div class="c_title"><marquee align="absmiddle"><font size=+3 color=red><a href="http://foojay520.tk">欢迎访问我的博客~!~</a></font></marquee>
+	<div id="test" style="display:none"><iframe height=498 width=510 src='http://player.youku.com/embed/XMjYzMjA4OTg5Ng==' frameborder=0 'allowfullscreen'></iframe></div>
+	</div>
+	<div class="c_title"><font size=+1 color=red><a href="http://foojay520.tk" style="text-decoration:none;">返回首页</a></font>&nbsp;&nbsp;&nbsp;<font size=+1 color=red><a href="javascript:void(0)" id="view_cs" style="text-decoration:none;">儿子英语测试</a></font></div>
+    <div class="clearfix" id="tv">
         <div id="a1"></div>
         <!-- <div id="a2" onclick="Close();" title="收起列表">&gt;&gt;</div>
         <div id="a3" onclick="Open();" style="display:none" title="展开列表">&lt;&lt;</div> -->
@@ -168,6 +171,10 @@ permalink: /video/
     		var url=$(this).attr("u");
     		playvideo(parseInt(num),url);
     	});
+		
+		$("#view_cs").click(function(){
+		   $("#test").show();
+		});
     	
     	
     });
