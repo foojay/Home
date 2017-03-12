@@ -79,12 +79,12 @@
             "Url": "http://mobile.ccdntech.com/live/_definst_/vod62_Live/live1/playlist.m3u8"
         },
         {
-            "Name": "News Arabic",
-            "Url": "http://88.129.155.251:8080/play/a04x"
+            "Name": "ADSport 1HD",
+            "Url": "http://adtv.ercdn.net/adsport1/adsport1_720p.m3u8"
         },
         {
-            "Name": "TVBS新闻台",
-            "Url": "http://bcoveliveios-i.akamaihd.net/hls/live/255247/4005328949001_8/playlist.m3u8"
+            "Name": "中天新闻",
+            "Url": "http://61.222.191.25/live/ch15/index.m3u8"
         },
         {
             "Name": "北京卫视高清",
