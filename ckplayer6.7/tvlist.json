@@ -245,12 +245,29 @@
             "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/sxtv1/z.m3u8"
         },
          {
-            "Name": "台州新闻综合",
+            "Name": "湖北电视台",
             "Url": "http://live.cjyun.org/video/s10008-zh/index.m3u8"
         },
          {
-            "Name": "台州新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/tztv1/z.m3u8"
+            "Name": "宜昌公共",
+            "Url": "http://zb.3xgd.com:1935/sxgd/ggpd/playlist.m3u8"
+        },
+         {
+            "Name": "湖北卫视",
+            "Url": "http://live.cjyun.org/video/s10008-hbws/index.m3u8"
+        },
+         {
+            "Name": "湖北经视",
+            "Url": "http://live.cjyun.org/video/s10008-hbjs/index.m3u8"
+        },
+         {
+            "Name": "湖北垄上",
+            "Url": "http://live.cjyun.org/video/s10008-ls/index.m3u8"
+        }
+        ,
+         {
+            "Name": "湖北公共新闻",
+            "Url": "http://live.cjyun.org/video/s10008-ggxw/index.m3u8"
         },
          {
             "Name": "台州新闻综合",
@@ -267,6 +284,38 @@
          {
             "Name": "台州新闻综合",
             "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/tztv1/z.m3u8"
+        },
+         {
+            "Name": "台州新闻综合",
+            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/tztv1/z.m3u8"
+        },
+         {
+            "Name": "湖北影视",
+            "Url": "http://live.cjyun.org/video/s10008-ys/index.m3u8"
+        },
+         {
+            "Name": "湖北教育",
+            "Url": "http://live.cjyun.org/video/s10008-jy/index.m3u8"
+        }
+        ,
+         {
+            "Name": "平武综合",
+            "Url": "http://live.826pc.com/pwtv/live.php?id=108"
+        }
+        ,
+         {
+            "Name": "平武影视",
+            "Url": "http://live.826pc.com/pwtv/live.php?id=109"
+        }
+        ,
+         {
+            "Name": "北川一套",
+            "Url": "http://live.826pc.com/bctv/live.php?id=123"
+        }
+        ,
+         {
+            "Name": "盐亭一套",
+            "Url": "http://live.826pc.com/yttv/live.php?id=129"
         }
     ]
 }
