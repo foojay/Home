@@ -159,8 +159,8 @@
             "Url": "http://waaarplive03-lh.akamaihd.net/i/titv_1@191631/index_1400_av-p.m3u8?sd=10&rebase=on"
         },
         {
-            "Name": "青岛①",
-            "Url": "http://video11.qtv.com.cn/qtv1-sd/manifest.m3u8"
+            "Name": "南充文娱",
+            "Url": "http://live.ncntv.com.cn:9600/relay/live5/tzwj_video.m3u8"
         }
     ]
 }
