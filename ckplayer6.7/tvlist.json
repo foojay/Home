@@ -301,8 +301,116 @@
             "Name": "盐亭一套",
             "Url": "http://live.826pc.com/yttv/live.php?id=129"
         }
+         ,
+         {
+            "Name": "阳泉科教",
+            "Url": "http://live.yqrtv.com:6505/live/ch2.m3u8"
+        }
+         ,
+         {
+            "Name": "阳泉影视",
+            "Url": "http://live.yqrtv.com:6505/live/ch3.m3u8"
+        }
+         ,
+         {
+            "Name": "辽宁新闻",
+            "Url": "http://lms.csytv.com/Live/122/live/livestream.m3u8"
+        }
+         ,
+         {
+            "Name": "铜仁1套",
+            "Url": "http://media.trrtv.com:8083/videos/live/10/37/iY2ZjcOkrjAJN/iY2ZjcOkrjAJN.M3U8"
+        }
+        ,
+         {
+            "Name": "贵阳1套",
+            "Url": "http://58.42.231.170/tslslive/GYBTV-1/hls/live_sd.m3u8"
+        }
+        ,
+         {
+            "Name": "贵阳2套",
+            "Url": "http://58.42.231.170/tslslive/GYBTV-2/hls/live_sd.m3u8"
+        }
+        ,
+         {
+            "Name": "贵阳3套",
+            "Url": "http://58.42.231.170/tslslive/GYBTV-3/hls/live_sd.m3u8"
+        }
+        ,
+         {
+            "Name": "南京科教",
+            "Url": "http://live.xwei.tv/channels/njtv/video_kj/flv:500k/live"
+        }
+        ,
+         {
+            "Name": "南京影视",
+            "Url": "http://live.xwei.tv/channels/njtv/video_ys/flv:500k/live"
+        }
+        ,
+         {
+            "Name": "南京娱乐",
+            "Url": "http://live.xwei.tv/channels/njtv/video_yl/flv:500k/live"
+        }
+        ,
+         {
+            "Name": "南京十八",
+            "Url": "http://live.xwei.tv/channels/njtv/video_18/flv:500k/live"
+        }
+        ,
+         {
+            "Name": "南京生活",
+            "Url": "http://live.xwei.tv/channels/njtv/video_shh/flv:500k/live"
+        }
+        
+        ,
+         {
+            "Name": "徐州-4HD",
+            "Url": "http://183.207.249.15/PLTV/3/224/3221225951/index.m3u8"
+        }
+        ,
+         {
+            "Name": "南充文娱",
+            "Url": "http://live.ncntv.com.cn:9600/relay/live5/tzwj_video.m3u8"
+        }
+        ,
+         {
+            "Name": "南充科教",
+            "Url": "http://live.ncntv.com.cn:9600/relay/live3/tzwj_video.m3u8"
+        },
+         {
+            "Name": "南充资讯",
+            "Url": "http://live.ncntv.com.cn:9600/relay/live4/tzwj_video.m3u8"
+        },
+         {
+            "Name": "南充公共",
+            "Url": "http://live.ncntv.com.cn:9600/relay/live2/tzwj_video.m3u8"
+        },
+         {
+            "Name": "河北農民",
+            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_09/flv:800k/live"
+        },
+         {
+            "Name": "河北都市",
+            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_01/flv:500k/live"
+        },
+         {
+            "Name": "河北公共",
+            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_08/flv:500k/live"
+        },
+         {
+            "Name": "河北經視",
+            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_02/flv:500k/live"
+        },
+         {
+            "Name": "河北農業",
+            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_09/flv:500k/live"
+        }
     ]
 }
+
+
+
+
 
 
 
