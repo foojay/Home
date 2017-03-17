@@ -1,64 +1,6 @@
 ﻿{
     "list": [
         {
-            "Name": "CCTV1综合",
-            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/hd_cctv1/z.m3u8"
-        },
-        {
-            "Name": "CCTV-2财经",
-            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/cctv2/z.m3u8"
-        },
-        {
-            "Name": "CCTV-3综艺",
-            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/cctv3/z.m3u8"
-        },
-        {
-            "Name": "CCTV-4中文国际",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv4/z.m3u8"
-        },
-        {
-            "Name": "CCTV-5体育",
-            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/hd_cctv5/z.m3u8"
-        },
-        {
-            "Name": "CCTV-6电影",
-            "Url": "http://120.31.66.11:8080/hls/live-cctv6hd-070/stream800/index.m3u8"
-        },
-        {
-            "Name": "CCTV-7军事农业",
-            "Url": "http://120.31.66.11:8080/hls/live-cctv7hd-071/stream800/index.m3u8"
-        },
-        {
-            "Name": "CCTV-8电视剧",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/617300502_5"
-        },
-        {
-            "Name": "CCTV-9英",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609006487_4"
-        },
-        {
-            "Name": "CCTV-15音乐",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv15/z.m3u8"
-        },
-        {
-            "Name": "CCTV-风云足球",
-            "Url": "http://59.56.30.158/livehls1-cnc.wasu.cn/fyzq/z.m3u8"
-        },
-        {
-            "Name": "CCTV-11",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv11/z.m3u8"
-        },
-        {
-            "Name": "CCTV-12",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv12/z.m3u8"
-        },
-        {
-            "Name": "CCTV-14HD",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/cctv14/z.m3u8"
-        },{
-            "Name": "CCTV-NEWS",
-            "Url": "http://218.244.147.118:6389/wtvlive/migu2/609017205_4"
-        },{
             "Name": "澳大利亚ABCNews",
             "Url": "http://hls.live.kksmg.com/live/live24h/playlist.m3u8"
         },
@@ -85,34 +27,6 @@
         {
             "Name": "中天新闻",
             "Url": "http://61.222.191.25/live/ch15/index.m3u8"
-        },
-        {
-            "Name": "北京卫视高清",
-            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_bjws/z.m3u8"
-        },
-        {
-            "Name": "广东卫视高清",
-            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_gdws/z.m3u8"
-        },
-        {
-            "Name": "黑龙江卫视高清",
-            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hljws/z.m3u8"
-        },
-        {
-            "Name": "湖北卫视高清",
-            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_hbws/z.m3u8"
-        },
-        {
-            "Name": "江苏卫视高清",
-            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_jsws/z.m3u8"
-        },
-        {
-            "Name": "浙江卫视高清",
-            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_zjws/z.m3u8"
-        },
-        {
-            "Name": "天津卫视高清",
-            "Url": "http://218.92.209.33/padlive1-cnc.wasu.cn/hd_tjws/z.m3u8"
         },
         {
             "Name": "GTV八大第1台",
@@ -173,76 +87,6 @@
         {
             "Name": "南充公共",
             "Url": "http://live.ncntv.com.cn:9600/relay/live2/tzwj_video.m3u8"
-        },
-        {
-            "Name": "杭州体育少儿",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv5/z.m3u8"
-        },
-        {
-            "Name": "杭州西湖明珠",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv2/z.m3u8"
-        },
-        {
-            "Name": "杭州影视",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv4/z.m3u8"
-        },
-        {
-            "Name": "杭州综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/htv1/z.m3u8"
-        },
-        {
-            "Name": "浙江公共农村",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv7/z.m3u8"
-        },
-        {
-            "Name": "浙江教育科技",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv4/z.m3u8"
-        },
-        {
-            "Name": "浙江经视",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv3/z.m3u8"
-        },
-         {
-            "Name": "浙江民生休闲",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv6/z.m3u8"
-        },
-         {
-            "Name": "浙江少儿",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/zjse/z.m3u8"
-        }
-        ,
-         {
-            "Name": "浙江影视娱乐",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/ztv5/z.m3u8"
-        }
-        ,
-         {
-            "Name": "嘉兴新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/jxtv1/z.m3u8"
-        },
-         {
-            "Name": "湖州新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/hztv1/z.m3u8"
-        },
-         {
-            "Name": "金华新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/jhtv1/z.m3u8"
-        },
-         {
-            "Name": "丽水新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/lstv1/z.m3u8"
-        },
-         {
-            "Name": "宁波新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/nbtv1/z.m3u8"
-        },
-         {
-            "Name": "衢州新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/qztv1/z.m3u8"
-        },
-         {
-            "Name": "绍兴新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/sxtv1/z.m3u8"
         },
          {
             "Name": "湖北电视台",
