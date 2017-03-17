@@ -154,15 +154,15 @@ permalink: /video/
     var nowD = 0;//目前播放的视频的编号(在数组里的编号)
     $(function(){
    
-        $.getJSON("../ckplayer6.7/tvlist.json",{},function(data){
+        $.getJSON("../ckplayer6.7/tvlist2.json",{},function(data){
         	tv=data.list;
            for (var i = 0; i < data.list.length; i++) {
         	   var aa="vli_"+i;
-        	   var html="<li class='ll' id='"+aa+"' num='"+i+"' n='"+data.list[i].Name+"' u='"+data.list[i].Url+"'><font size='3' color='skyblue'>"+data.list[i].Name+"</font></li>";
+        	   var html="<li class='ll' id='"+aa+"' num='"+i+"' n='"+data.list[i].name+"' u='"+data.list[i].url+"'><font size='3' color='skyblue'>"+data.list[i].name+"</font></li>";
 			$("#playerlist").append(html);
 			
 		}
-           playvideo(0,data.list[0].Url);
+           playvideo(0,data.list[0].url);
         });
        
     	$(".ll").live("click",function(){
