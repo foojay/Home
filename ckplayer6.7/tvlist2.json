@@ -1,253 +1,253 @@
 {
     "list": [
         {
-            "Name": "澳大利亚ABCNews",
-            "Url": "http://hls.live.kksmg.com/live/live24h/playlist.m3u8"
+            "name": "澳大利亚ABCNews",
+            "url": "http://hls.live.kksmg.com/live/live24h/playlist.m3u8"
         },
         {
-            "Name": "凤凰资讯",
-            "Url": "http://61.216.91.103/live/ch20/playlist.m3u8"
+            "name": "凤凰资讯",
+            "url": "http://61.216.91.103/live/ch20/playlist.m3u8"
         },
         {
-            "Name": "香港卫视",
-            "Url": "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
+            "name": "香港卫视",
+            "url": "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
         },
         {
-            "Name": "泰国VTV4",
-            "Url": "http://61.222.191.61/live/ch28/playlist.m3u8"
+            "name": "泰国VTV4",
+            "url": "http://61.222.191.61/live/ch28/playlist.m3u8"
         },
         {
-            "Name": "宏观卫视",
-            "Url": "http://mobile.ccdntech.com/live/_definst_/vod62_Live/live1/playlist.m3u8"
+            "name": "宏观卫视",
+            "url": "http://mobile.ccdntech.com/live/_definst_/vod62_Live/live1/playlist.m3u8"
         },
         {
-            "Name": "ADSport 1HD",
-            "Url": "http://adtv.ercdn.net/adsport1/adsport1_720p.m3u8"
+            "name": "ADSport 1HD",
+            "url": "http://adtv.ercdn.net/adsport1/adsport1_720p.m3u8"
         },
         {
-            "Name": "中天新闻",
-            "Url": "http://61.222.191.25/live/ch15/index.m3u8"
+            "name": "中天新闻",
+            "url": "http://61.222.191.25/live/ch15/index.m3u8"
         },
         {
-            "Name": "GTV八大第1台",
-            "Url": "http://61.216.131.1/live/ch23/playlist.m3u8"
+            "name": "GTV八大第1台",
+            "url": "http://61.216.131.1/live/ch23/playlist.m3u8"
         },
         {
-            "Name": "GTV八大綜合",
-            "Url": "http://61.216.131.1/live/ch25/index.m3u8"
+            "name": "GTV八大綜合",
+            "url": "http://61.216.131.1/live/ch25/index.m3u8"
         },
         {
-            "Name": "澳亚卫视",
-            "Url": "http://live.mastvnet.com/n1rtlHG/500/live.m3u8"
+            "name": "澳亚卫视",
+            "url": "http://live.mastvnet.com/n1rtlHG/500/live.m3u8"
         },
         {
-            "Name": "乐云香港电影",
-            "Url": "http://live.gslb.letv.com/gslb?stream_id=lb_lsgcp_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1"
+            "name": "乐云香港电影",
+            "url": "http://live.gslb.letv.com/gslb?stream_id=lb_lsgcp_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1"
         },
         {
-            "Name": "港产动作",
-            "Url": "http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkactionmovies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1"
+            "name": "港产动作",
+            "url": "http://live.gslb.letv.com/gslb?stream_id=lb_hk_Hkactionmovies_3000&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1"
         },
         {
-            "Name": "港产电影",
-            "Url": "http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hkmovie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1"
+            "name": "港产电影",
+            "url": "http://live.g3proxy.lecloud.com/gslb?stream_id=lb_hkmovie_720p&tag=live&ext=m3u8&sign=live_tv&platid=10&splatid=1009&format=letv&expect=1"
         },
         {
-            "Name": "纬来体育",
-            "Url": "http://61.216.79.193/live/ch07/playlist.m3u8"
+            "name": "纬来体育",
+            "url": "http://61.216.79.193/live/ch07/playlist.m3u8"
         },
         {
-            "Name": "凤凰中文",
-            "Url": "http://222.37.159.225:13164/playurl.m3u8?playtype=live&accesstoken=R5882FE1AU30616625K7735D9A8M301AF7AW3532625&programid=4200000155&playtoken=ABCDEFGH"
+            "name": "凤凰中文",
+            "url": "http://222.37.159.225:13164/playurl.m3u8?playtype=live&accesstoken=R5882FE1AU30616625K7735D9A8M301AF7AW3532625&programid=4200000155&playtoken=ABCDEFGH"
         },
         {
-            "Name": "翡翠台",
-            "Url": "http://wshls.acgvideo.com/live/live_19326124_9434677/playlist.m3u8"
+            "name": "翡翠台",
+            "url": "http://wshls.acgvideo.com/live/live_19326124_9434677/playlist.m3u8"
         },
         {
-            "Name": "NHK",
-            "Url": "http://61.222.191.25/live/ch13/playlist.m3u8"
+            "name": "NHK",
+            "url": "http://61.222.191.25/live/ch13/playlist.m3u8"
         },
         {
-            "Name": "TITV",
-            "Url": "http://waaarplive03-lh.akamaihd.net/i/titv_1@191631/index_1400_av-p.m3u8?sd=10&rebase=on"
+            "name": "TITV",
+            "url": "http://waaarplive03-lh.akamaihd.net/i/titv_1@191631/index_1400_av-p.m3u8?sd=10&rebase=on"
         },
         {
-            "Name": "南充文娱",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live5/tzwj_video.m3u8"
+            "name": "南充文娱",
+            "url": "http://live.ncntv.com.cn:9600/relay/live5/tzwj_video.m3u8"
         },
         {
-            "Name": "南充科教",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live3/tzwj_video.m3u8"
+            "name": "南充科教",
+            "url": "http://live.ncntv.com.cn:9600/relay/live3/tzwj_video.m3u8"
         },
         {
-            "Name": "南充资讯",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live4/tzwj_video.m3u8"
+            "name": "南充资讯",
+            "url": "http://live.ncntv.com.cn:9600/relay/live4/tzwj_video.m3u8"
         },
         {
-            "Name": "南充公共",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live2/tzwj_video.m3u8"
+            "name": "南充公共",
+            "url": "http://live.ncntv.com.cn:9600/relay/live2/tzwj_video.m3u8"
         },
          {
-            "Name": "湖北电视台",
-            "Url": "http://live.cjyun.org/video/s10008-zh/index.m3u8"
+            "name": "湖北电视台",
+            "url": "http://live.cjyun.org/video/s10008-zh/index.m3u8"
         },
          {
-            "Name": "宜昌公共",
-            "Url": "http://zb.3xgd.com:1935/sxgd/ggpd/playlist.m3u8"
+            "name": "宜昌公共",
+            "url": "http://zb.3xgd.com:1935/sxgd/ggpd/playlist.m3u8"
         },
          {
-            "Name": "湖北卫视",
-            "Url": "http://live.cjyun.org/video/s10008-hbws/index.m3u8"
+            "name": "湖北卫视",
+            "url": "http://live.cjyun.org/video/s10008-hbws/index.m3u8"
         },
          {
-            "Name": "湖北经视",
-            "Url": "http://live.cjyun.org/video/s10008-hbjs/index.m3u8"
+            "name": "湖北经视",
+            "url": "http://live.cjyun.org/video/s10008-hbjs/index.m3u8"
         },
          {
-            "Name": "湖北垄上",
-            "Url": "http://live.cjyun.org/video/s10008-ls/index.m3u8"
+            "name": "湖北垄上",
+            "url": "http://live.cjyun.org/video/s10008-ls/index.m3u8"
         }
         ,
          {
-            "Name": "湖北公共新闻",
-            "Url": "http://live.cjyun.org/video/s10008-ggxw/index.m3u8"
+            "name": "湖北公共新闻",
+            "url": "http://live.cjyun.org/video/s10008-ggxw/index.m3u8"
         },
          {
-            "Name": "台州新闻综合",
-            "Url": "http://59.56.30.158/livehls2-cnc.wasu.cn/tztv1/z.m3u8"
+            "name": "台州新闻综合",
+            "url": "http://59.56.30.158/livehls2-cnc.wasu.cn/tztv1/z.m3u8"
         },
          {
-            "Name": "湖北影视",
-            "Url": "http://live.cjyun.org/video/s10008-ys/index.m3u8"
+            "name": "湖北影视",
+            "url": "http://live.cjyun.org/video/s10008-ys/index.m3u8"
         },
          {
-            "Name": "湖北教育",
-            "Url": "http://live.cjyun.org/video/s10008-jy/index.m3u8"
+            "name": "湖北教育",
+            "url": "http://live.cjyun.org/video/s10008-jy/index.m3u8"
         }
         ,
          {
-            "Name": "平武综合",
-            "Url": "http://live.826pc.com/pwtv/live.php?id=108"
+            "name": "平武综合",
+            "url": "http://live.826pc.com/pwtv/live.php?id=108"
         }
         ,
          {
-            "Name": "平武影视",
-            "Url": "http://live.826pc.com/pwtv/live.php?id=109"
+            "name": "平武影视",
+            "url": "http://live.826pc.com/pwtv/live.php?id=109"
         }
         ,
          {
-            "Name": "北川一套",
-            "Url": "http://live.826pc.com/bctv/live.php?id=123"
+            "name": "北川一套",
+            "url": "http://live.826pc.com/bctv/live.php?id=123"
         }
         ,
          {
-            "Name": "盐亭一套",
-            "Url": "http://live.826pc.com/yttv/live.php?id=129"
+            "name": "盐亭一套",
+            "url": "http://live.826pc.com/yttv/live.php?id=129"
         }
          ,
          {
-            "Name": "阳泉科教",
-            "Url": "http://live.yqrtv.com:6505/live/ch2.m3u8"
+            "name": "阳泉科教",
+            "url": "http://live.yqrtv.com:6505/live/ch2.m3u8"
         }
          ,
          {
-            "Name": "阳泉影视",
-            "Url": "http://live.yqrtv.com:6505/live/ch3.m3u8"
+            "name": "阳泉影视",
+            "url": "http://live.yqrtv.com:6505/live/ch3.m3u8"
         }
          ,
          {
-            "Name": "辽宁新闻",
-            "Url": "http://lms.csytv.com/Live/122/live/livestream.m3u8"
+            "name": "辽宁新闻",
+            "url": "http://lms.csytv.com/Live/122/live/livestream.m3u8"
         }
          ,
          {
-            "Name": "铜仁1套",
-            "Url": "http://media.trrtv.com:8083/videos/live/10/37/iY2ZjcOkrjAJN/iY2ZjcOkrjAJN.M3U8"
+            "name": "铜仁1套",
+            "url": "http://media.trrtv.com:8083/videos/live/10/37/iY2ZjcOkrjAJN/iY2ZjcOkrjAJN.M3U8"
         }
         ,
          {
-            "Name": "贵阳1套",
-            "Url": "http://58.42.231.170/tslslive/GYBTV-1/hls/live_sd.m3u8"
+            "name": "贵阳1套",
+            "url": "http://58.42.231.170/tslslive/GYBTV-1/hls/live_sd.m3u8"
         }
         ,
          {
-            "Name": "贵阳2套",
-            "Url": "http://58.42.231.170/tslslive/GYBTV-2/hls/live_sd.m3u8"
+            "name": "贵阳2套",
+            "url": "http://58.42.231.170/tslslive/GYBTV-2/hls/live_sd.m3u8"
         }
         ,
          {
-            "Name": "贵阳3套",
-            "Url": "http://58.42.231.170/tslslive/GYBTV-3/hls/live_sd.m3u8"
+            "name": "贵阳3套",
+            "url": "http://58.42.231.170/tslslive/GYBTV-3/hls/live_sd.m3u8"
         }
         ,
          {
-            "Name": "南京科教",
-            "Url": "http://live.xwei.tv/channels/njtv/video_kj/flv:500k/live"
+            "name": "南京科教",
+            "url": "http://live.xwei.tv/channels/njtv/video_kj/flv:500k/live"
         }
         ,
          {
-            "Name": "南京影视",
-            "Url": "http://live.xwei.tv/channels/njtv/video_ys/flv:500k/live"
+            "name": "南京影视",
+            "url": "http://live.xwei.tv/channels/njtv/video_ys/flv:500k/live"
         }
         ,
          {
-            "Name": "南京娱乐",
-            "Url": "http://live.xwei.tv/channels/njtv/video_yl/flv:500k/live"
+            "name": "南京娱乐",
+            "url": "http://live.xwei.tv/channels/njtv/video_yl/flv:500k/live"
         }
         ,
          {
-            "Name": "南京十八",
-            "Url": "http://live.xwei.tv/channels/njtv/video_18/flv:500k/live"
+            "name": "南京十八",
+            "url": "http://live.xwei.tv/channels/njtv/video_18/flv:500k/live"
         }
         ,
          {
-            "Name": "南京生活",
-            "Url": "http://live.xwei.tv/channels/njtv/video_shh/flv:500k/live"
+            "name": "南京生活",
+            "url": "http://live.xwei.tv/channels/njtv/video_shh/flv:500k/live"
         }
         
         ,
          {
-            "Name": "徐州-4HD",
-            "Url": "http://183.207.249.15/PLTV/3/224/3221225951/index.m3u8"
+            "name": "徐州-4HD",
+            "url": "http://183.207.249.15/PLTV/3/224/3221225951/index.m3u8"
         }
         ,
          {
-            "Name": "南充文娱",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live5/tzwj_video.m3u8"
+            "name": "南充文娱",
+            "url": "http://live.ncntv.com.cn:9600/relay/live5/tzwj_video.m3u8"
         }
         ,
          {
-            "Name": "南充科教",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live3/tzwj_video.m3u8"
+            "name": "南充科教",
+            "url": "http://live.ncntv.com.cn:9600/relay/live3/tzwj_video.m3u8"
         },
          {
-            "Name": "南充资讯",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live4/tzwj_video.m3u8"
+            "name": "南充资讯",
+            "url": "http://live.ncntv.com.cn:9600/relay/live4/tzwj_video.m3u8"
         },
          {
-            "Name": "南充公共",
-            "Url": "http://live.ncntv.com.cn:9600/relay/live2/tzwj_video.m3u8"
+            "name": "南充公共",
+            "url": "http://live.ncntv.com.cn:9600/relay/live2/tzwj_video.m3u8"
         },
          {
-            "Name": "河北農民",
-            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_09/flv:800k/live"
+            "name": "河北農民",
+            "url": "http://live01.hebtv.com/channels/hebtv/video_channel_09/flv:800k/live"
         },
          {
-            "Name": "河北都市",
-            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_01/flv:500k/live"
+            "name": "河北都市",
+            "url": "http://live01.hebtv.com/channels/hebtv/video_channel_01/flv:500k/live"
         },
          {
-            "Name": "河北公共",
-            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_08/flv:500k/live"
+            "name": "河北公共",
+            "url": "http://live01.hebtv.com/channels/hebtv/video_channel_08/flv:500k/live"
         },
          {
-            "Name": "河北經視",
-            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_02/flv:500k/live"
+            "name": "河北經視",
+            "url": "http://live01.hebtv.com/channels/hebtv/video_channel_02/flv:500k/live"
         },
          {
-            "Name": "河北農業",
-            "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_09/flv:500k/live"
+            "name": "河北農業",
+            "url": "http://live01.hebtv.com/channels/hebtv/video_channel_09/flv:500k/live"
         },
         {
             "name": "长春MYFM",
