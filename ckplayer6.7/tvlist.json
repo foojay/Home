@@ -252,11 +252,33 @@
         {
             "Name": "中国教育-1",
             "Url": "http://web-play.pptv.com/web-m3u8-300165.m3u8?type=ipad"
+        },
+        {
+            "Name": "安徽卫视HD",
+            "Url": "http://web-play.pptv.com/web-m3u8-300162.m3u8?type=ipad"
+        },
+        {
+            "Name": "芜湖新闻",
+            "Url": "http://live.wuhubtv.com/channels/1531/500.flv/live"
+        },
+        {
+            "Name": "芜湖新闻",
+            "Url": "http://live.wuhubtv.com/channels/1531/500.flv/live"
+        },{
+            "Name": "芜湖生活",
+            "Url": "http://live.wuhubtv.com/channels/1532/500.flv/live"
+        },{
+            "Name": "芜湖教育",
+            "Url": "http://live.wuhubtv.com/channels/1534/500.flv/live"
+        },{
+            "Name": "淮南新闻综合",
+            "Url": "mmst://space.hngd.gov.cn/live1"
+        },{
+            "Name": "淮南经济生活",
+            "Url": "mmst://space.hngd.gov.cn/live2"
         }
     ]
 }
-
-
 
 
 
