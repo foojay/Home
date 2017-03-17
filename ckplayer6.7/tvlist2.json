@@ -1,6 +1,10 @@
 {
     "list": [
         {
+            "Name": "ADSport 1HD",
+            "Url": "http://adtv.ercdn.net/adsport1/adsport1_720p.m3u8"
+        },
+        {
             "name": "长春MYFM",
             "url": "http://139.210.35.124:1935/live/live5/playlist.m3u8"
         },
