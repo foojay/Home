@@ -248,6 +248,10 @@
          {
             "Name": "河北農業",
             "Url": "http://live01.hebtv.com/channels/hebtv/video_channel_09/flv:500k/live"
+        },
+        {
+            "Name": "中国教育-1",
+            "Url": "http://web-play.pptv.com/web-m3u8-300165.m3u8?type=ipad"
         }
     ]
 }
