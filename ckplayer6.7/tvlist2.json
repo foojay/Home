@@ -1,6 +1,134 @@
 {
     "list": [
         {
+            "name": "*战旗-女团1",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/100728_Gz8dX.m3u8"
+        },
+        {
+            "name": "战旗高清电影1",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/75885_IvfFq.m3u8"
+        },
+        {
+            "name": "战旗高清电影2",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/102444_ZGmRp.m3u8"
+        },
+        {
+            "name": "战旗高清电影3",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/21333_CvnhE.m3u8"
+        },
+        {
+            "name": "战旗高清电影4",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/2869_tUPFz.m3u8"
+        },
+        {
+            "name": "战旗高清电影6",
+            "url": "http://125.75.32.68/wshdl.load.cdn.zhanqi.tv/zqlive/35349_iXsXw.flv?wshc_tag=0&wsiphost=ipdbm&wsSecret=4a5779842045e89528bd077bc3a755bd&wsTime=57a54794&device=0"
+        },
+        {
+            "name": "战旗高清电影7",
+            "url": "http://36.42.32.41/wshdl.load.cdn.zhanqi.tv/zqlive/45188_oT6Ed.flv?wshc_tag=0&wsiphost=ipdbm&wsSecret=259c7f997c485426809ce534a5c180fe&wsTime=57a54b38&device=0"
+        },
+        {
+            "name": "战旗高清电影8",
+            "url": "http://117.23.51.20/wshdl.load.cdn.zhanqi.tv/zqlive/90819_iMmHS.flv?wshc_tag=0&wsiphost=ipdbm&wsSecret=6b0f3aee117980cc02886d2adfff3bb8&wsTime=57a541ad&device=0"
+        },
+        {
+            "name": "战旗高清电影9",
+            "url": "http://118.180.15.188/wshdl.load.cdn.zhanqi.tv/zqlive/2869_tUPFz.flv?wshc_tag=0&wsiphost=ipdbm&wsSecret=b7a6981f54e86c99b5de2a8f28f7e5e0&wsTime=57a54231&device=0"
+        },
+        {
+            "name": "战旗高清电影10",
+            "url": "http://118.180.15.188/wshdl.load.cdn.zhanqi.tv/zqlive/53346_ESoth.flv?wshc_tag=0&wsiphost=ipdbm&wsSecret=29c88184adb908e99bcb7e407a254a95&wsTime=57a53f38&device=0"
+        },
+        {
+            "name": "战旗高清电影11",
+            "url": "http://118.180.15.188/wshdl.load.cdn.zhanqi.tv/zqlive/5993_qvXCc.flv?wshc_tag=0&wsiphost=ipdbm&wsSecret=c40083f5ffdf3c345ef3787b89129ab7&wsTime=57a549e7&device=0"
+        },
+        {
+            "name": "战旗高清电影12",
+            "url": "http://wshdl.load.cdn.zhanqi.tv/zqlive/7032_0s2qn.flv"
+        },
+        {
+            "name": "战旗高清电影13",
+            "url": "http://wshls.acgvideo.com/live/live_15134575_4134110/playlist.m3u8"
+        },
+        {
+            "name": "战旗高清电影14",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/34338_PVMT5.m3u8"
+        },
+        {
+            "name": "战旗高清相声15",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/43626_vQOn9.m3u8"
+        },
+        {
+            "name": "战旗高清电影16",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/35349_iXsXw.m3u8"
+        },
+        {
+            "name": "战旗高清电影21",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/75885_IvfFq.m3u8"
+        },
+        {
+            "name": "战旗高清电影22",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/90819_iMmHS.m3u8"
+        },
+        {
+            "name": "战旗高清电影23",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/102444_ZGmRp.m3u8"
+        },
+        {
+            "name": "战旗高清电影24",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/99815_VmbZY.m3u8"
+        },
+        {
+            "name": "战旗高清电影25",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/45338_MRc2N.m3u8"
+        },
+        {
+            "name": "战旗高清电影26",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/53346_ESoth.m3u8"
+        },
+        {
+            "name": "战旗高清电影27",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/21333_CvnhE.m3u8"
+        },
+        {
+            "name": "战旗高清电影28",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/75398_udUdB.m3u8"
+        },
+        {
+            "name": "战旗电影85",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/75885_IvfFq.m3u8"
+        },
+        {
+            "name": "战旗蓝蓝",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/45188_oT6Ed.m3u8"
+        },
+        {
+            "name": "战旗影院2",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/99815_VmbZY.m3u8"
+        },
+        {
+            "name": "战旗影院4",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/88945_Kligp.m3u8"
+        },
+        {
+            "name": "战旗影院5",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/7032_0s2qn.m3u8"
+        },
+        {
+            "name": "战旗影院8",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/35349_iXsXw.m3u8"
+        },
+        {
+            "name": "战旗影院12",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/35180_KUDhx.m3u8"
+        },
+        {
+            "name": "战旗影院15",
+            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/90819_iMmHS.m3u8"
+        },
+        {
             "name": "纬来日本",
             "url": "http://61.216.79.193/live/ch08/playlist.m3u8"
         },
