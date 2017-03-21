@@ -185,11 +185,7 @@
             "url": "http://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_1296_av-b.m3u8"
         },
         {
-            "name": "战旗影院15",
-            "url": "http://dlhls.cdn.zhanqi.tv/zqlive/90819_iMmHS.m3u8"
-        },
-        {
-            "Name": "澳大利亚ABCNews",
+            "name": "澳大利亚ABCNews",
             "url": "http://hls.live.kksmg.com/live/live24h/playlist.m3u8"
         },
         {
@@ -199,6 +195,26 @@
         {
             "name": "香港卫视",
             "url": "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
+        },
+               {
+            "name": "凤凰中文HD",
+            "url": "http://112.17.0.10:8085/ysten-business/live/fhchinese/yst.m3u8"
+        },
+               {
+            "name": "凤凰资讯",
+            "url": "http://112.17.0.10:8085/ysten-business/live/fhzixun/yst.m3u8"
+        },
+               {
+            "name": "凤凰视频1台",
+            "url": "http://zv.3gv.ifeng.com/live/zixun800k.m3u8"
+        },
+        {
+            "name": "凤凰视频2台",
+            "url": "http://zv.3gv.ifeng.com/live/zhongwen800k.m3u8"
+        },
+        {
+            "name": "凤凰视频3台",
+            "url": "http://zv.3gv.ifeng.com/live/hongkong800k.m3u8"
         },
         {
             "name": "泰国VTV4",
@@ -227,10 +243,6 @@
         {
             "name": "纬来体育",
             "url": "http://61.216.79.193/live/ch07/playlist.m3u8"
-        },
-        {
-            "name": "凤凰中文",
-            "url": "http://222.37.159.225:13164/playurl.m3u8?playtype=live&accesstoken=R5882FE1AU30616625K7735D9A8M301AF7AW3532625&programid=4200000155&playtoken=ABCDEFGH"
         },
         {
             "name": "翡翠台",
@@ -494,10 +506,6 @@
         "url": "http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479809245-1479809545-44ec12c30b5943aa813403e9ad083358-8d41302d533cb2a_88a-03/ch64_h.live/chunklist_w1898655557.m3u8?uid=8169adc297a66a924239d20609ba947f"
     },
     {
-        "name": "凤凰资讯HD",
-        "url": "http://61.216.91.103/live/ch20/playlist.m3u8"
-    },
-    {
         "name": "*欧美影院",
         "url": "http://61.55.145.199/live/hls/1082.m3u8"
     },
@@ -562,10 +570,6 @@
         "url": "http://61.175.232.154/tslslive/rk8Z088/hls/live_sd.m3u8"
     },
     {
-        "name": "凤凰资讯",
-        "url": "http://61.216.91.103/live/ch20/playlist.m3u8"
-    },
-    {
         "name": "博斯足球",
         "url": "http://61.218.59.181/live/ch106/playlist.m3u8"
     },
@@ -600,10 +604,6 @@
     {
         "name": "纬来体育",
         "url": "http://61.216.79.193/live/ch07/playlist.m3u8"
-    },
-    {
-        "name": "凤凰资讯",
-        "url": "http://61.216.91.103/live/ch20/playlist.m3u8"
     },
     {
         "name": "榆林-2",
@@ -742,10 +742,6 @@
         "url": "http://61.10.2.137/live_conmobile/_definst_/4-2a021def-1479809245-1479809545-44ec12c30b5943aa813403e9ad083358-8d41302d533cb2a_88a-03/ch64_h.live/chunklist_w1898655557.m3u8?uid=8169adc297a66a924239d20609ba947f"
     },
     {
-        "name": "凤凰资讯HD",
-        "url": "http://61.216.91.103/live/ch20/playlist.m3u8"
-    },
-    {
         "name": "八大戏剧",
         "url": "http://61.216.131.1/live/ch24/index.m3u8"
     },
@@ -792,10 +788,6 @@
     {
         "name": "纬来体育",
         "url": "http://61.216.79.193/live/ch07/playlist.m3u8"
-    },
-    {
-        "name": "FOX体育2台",
-        "url": "http://61.222.191.241/live/ch05/playlist.m3u8"
     },
     {
         "name": "纬来体育",
@@ -1010,10 +1002,6 @@
             "url": "rtmp://radio.hljtv.com/live/b002"
         },
         {
-            "name": "FOX体育2台",
-            "url": "http://61.222.191.241/live/ch05/playlist.m3u8"
-        },
-        {
             "name": "*纪宝大战和萌",
             "url": "http://pl3.live.panda.tv/live_panda/490b525b9dc0934e321e653e235c1a70.flv"
         },
@@ -1024,10 +1012,6 @@
         {
             "name": "黑龙江都市广播",
             "url": "rtmp://radio.hljtv.com/live/b003"
-        },
-        {
-            "name": "FOX体育台",
-            "url": "http://61.222.191.25/live/ch12/playlist.m3u8"
         },
         {
             "name": "*银魂24H",
@@ -1250,20 +1234,12 @@
             "url": "rtmp://mms.hdbs.cn:1937/live/xwzhgbzb"
         },
         {
-            "name": "凤凰中文HD",
-            "url": "http://222.37.159.225:13164/playurl.m3u8?playtype=live&accesstoken=R5882FE1AU30616625K7735D9A8M301AF7AW3532625&programid=4200000155&playtoken=ABCDEFGH"
-        },
-        {
             "name": "漫威DC动漫",
             "url": "http://pl3.live.panda.tv/live_panda/28f7a0f9e17b7b7db2a74a56c74f4f71.flv"
         },
         {
             "name": "邯郸音乐广播",
             "url": "rtmp://mms.hdbs.cn:1937/live/hdyygbzb"
-        },
-        {
-            "name": "凤凰资讯HD",
-            "url": "http://61.216.91.103/live/ch20/playlist.m3u8"
         },
         {
             "name": "*欧美影院",
@@ -1522,10 +1498,6 @@
             "url": "rtmp://222.141.69.85:1935/live/fm935"
         },
         {
-            "name": "FOX体育2台",
-            "url": "http://61.222.191.241/live/ch05/playlist.m3u8"
-        },
-        {
             "name": "*净空法师",
             "url": "rtmp://hk2.hwadzan.com/liveedgelist/livetv#http://61.160.254.6/channels/jingzong/video_channel_01/flv:hd/live?1378017858945"
         },
@@ -1536,10 +1508,6 @@
         {
             "name": "山西综合广播",
             "url": "rtmp://radiolive.sxrtv.com/live/zonghe"
-        },
-        {
-            "name": "FOX体育台",
-            "url": "http://61.222.191.25/live/ch12/playlist.m3u8"
         },
         {
             "name": "*佛教台",
@@ -1570,20 +1538,12 @@
             "url": "rtmp://radiolive.sxrtv.com/live/jingji"
         },
         {
-            "name": "FOX体育2台",
-            "url": "http://61.222.191.241/live/ch05/playlist.m3u8"
-        },
-        {
             "name": "*慧津电视台",
             "url": "mms://down.fodizi.com/tv"
         },
         {
             "name": "山西文艺广播",
             "url": "rtmp://radiolive.sxrtv.com/live/wenyi"
-        },
-        {
-            "name": "FOX体育台",
-            "url": "http://61.222.191.25/live/ch12/playlist.m3u8"
         },
         {
             "name": "*CHING台",
@@ -1624,10 +1584,6 @@
         {
             "name": "山西农村广播",
             "url": "rtmp://radiolive.sxrtv.com/live/nongcun"
-        },
-        {
-            "name": "体育FOX",
-            "url": "http://61.222.191.241/live/ch05/playlist.m3u8"
         },
         {
             "name": "欧美影院",
@@ -1688,10 +1644,6 @@
         {
             "name": "烟台交通广播",
             "url": "http://live1.av.jiaodong.net/channels/yttv/audio_jtgb/flv:64k/live"
-        },
-        {
-            "name": "FOX电视，",
-            "url": "http://61.222.191.25/live/ch12/playlist.m3u8"
         },
         {
             "name": "港动作片",
@@ -2918,10 +2870,6 @@
             "url": "http://221.199.43.227:8088/flv0"
         },
         {
-            "name": "凤凰旅游交通广播",
-            "url": "mmsh://218.76.88.166:1085/"
-        },
-        {
             "name": "直播高清电影2",
             "url": "http://wshdl.load.cdn.zhanqi.tv/zqlive/2869_tUPFz.flv?vhd.xtimenet.com?/video.asp?.flv"
         },
@@ -3926,10 +3874,6 @@
             "url": "http://live.yhbtv.com/channels/tvie/channel_01/flv:300k/live"
         },
         {
-            "name": "凤凰资讯",
-            "url": "http://61.216.91.103/live/ch20/playlist.m3u8"
-        },
-        {
             "name": "*小鞋匠",
             "url": "http://dlhls.cdn.zhanqi.tv/zqlive/34822_KA3zE.m3u8"
         },
@@ -3986,20 +3930,12 @@
             "url": "rtsp://2.itvitv.com/tvbq"
         },
         {
-            "name": "FOX体育",
-            "url": "http://61.222.191.25/live/ch12/playlist.m3u8"
-        },
-        {
             "name": "*波雅__汉库克",
             "url": "http://dlhls.cdn.zhanqi.tv/zqlive/37119_4ibXM.m3u8"
         },
         {
             "name": "翡翠通道",
             "url": "rtsp://2.itvitv.com/tvbt.drmrsgesa"
-        },
-        {
-            "name": "FOX体育2",
-            "url": "http://61.222.191.241/live/ch05/playlist.m3u8"
         },
         {
             "name": "*火影忍者",
