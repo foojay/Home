@@ -125,6 +125,10 @@
             "url": "http://dlhls.cdn.zhanqi.tv/zqlive/35180_KUDhx.m3u8"
         },
         {
+            "name":"RTHK31台",
+            "url":"http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8"
+        },
+        {
             "name": "战旗影院15",
             "url": "http://dlhls.cdn.zhanqi.tv/zqlive/90819_iMmHS.m3u8"
         },
