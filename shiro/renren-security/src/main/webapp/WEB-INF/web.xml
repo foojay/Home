@@ -85,7 +85,11 @@
       <servlet-name>DruidStatView</servlet-name>
       <url-pattern>/druid/*</url-pattern>
     </servlet-mapping>
-    
+    <servlet>
+		<servlet-name>InitServlet</servlet-name>
+		<servlet-class>io.renren.servlet.InitServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
     
     <error-page>
 		<error-code>404</error-code>

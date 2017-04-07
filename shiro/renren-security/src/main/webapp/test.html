@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>打开模块</title>
+</head>
+<body>
+  <input type="button" value="打开模块" id="open">
+   <object classid="clsid:DA27F1D2-1B27-4745-8620-4B92866C9796" id="objAct" style="display:none;"></object>
+</body>
+<script src="statics/libs/jquery.min.js"></script>
+<script type="text/javascript">
+var objAct;
+$(function(){
+	$("#open").click(function(){
+		
+		objAct = document.getElementById("objAct");
+        objAct.schemeType = "2";
+        objAct.ServerAddr = "7iNiMInDee4Bt9wH/kP/ufPIRstl9OPY";
+        objAct.UIf = "aBWqg3et5jm8qV2ZsEUzCMJj3AW/qYa2Jrek7lfkXNy6YeI+LrbMunbEhqu2Yh65BDQgSQ5/rvMPtYnuIuV8ww==";
+        objAct.LimitV = "cBdAit/coYAadfrK58tjBzH/75Euq406nVnFnfdg7SNKUFq3F3Y/2Q==";
+
+	     objAct.OpenTask("163", "ZSGTJ2006.exe");
+	});
+	
+});
+
+
+</script>
+</html>
