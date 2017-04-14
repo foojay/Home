@@ -6,6 +6,7 @@
   <packaging>war</packaging>
   <description>renren-security</description>
   
+   
 	<properties>
 		<java-version>1.7</java-version>
 		<servlet-version>3.1.0</servlet-version>
@@ -82,6 +83,7 @@
 			<artifactId>mybatis-spring</artifactId>
 			<version>${mybatis-spring-version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -225,6 +227,7 @@
             		<artifactId>struts-taglib</artifactId>
             		<groupId>org.apache.struts</groupId>
             	</exclusion>
+            	
             	<exclusion>
             		<artifactId>struts-tiles</artifactId>
             		<groupId>org.apache.struts</groupId>
