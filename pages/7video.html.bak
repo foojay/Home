@@ -137,9 +137,9 @@ permalink: /video/
 </head>
 <body>
 <script type="text/javascript" src="http://www.ckplayer.com/static/js/laycode/laycode2.js"></script>
-   <div class="c_title"><font size=+1 color=red><a href="http://foojay520.tk" style="text-decoration:none;">返回首页</a></font>&nbsp;&nbsp;&nbsp;<font size=+1 color=red><!--<a href="javascript:void(0)" id="view_cs" style="text-decoration:none;">儿子英语测试</a></font></div>
+   <div class="c_title"><font size=+1 color=red><a href="http://foojay520.tk" style="text-decoration:none;">返回首页</a></font>&nbsp;&nbsp;&nbsp;<font size=+1 color=red><a href="javascript:void(0)" id="view_cs" style="text-decoration:none;">儿子英语测试</a></font></div>
     <div class="c_title"><marquee align="absmiddle"><font size=+3 color=red><a href="http://foojay520.tk">欢迎访问我的博客~!~</a></font></marquee>
-	<div id="test" style="display:none"><iframe height=498 width=510 src='http://player.youku.com/embed/XMjYzMjA4OTg5Ng==' frameborder=0 'allowfullscreen'></iframe></div>-->
+	<div id="test" style="display:none"><iframe height=498 width=510 src='http://player.youku.com/embed/XMjYzMjA4OTg5Ng==' frameborder=0 'allowfullscreen'></iframe></div>
 	</div>
     <div class="clearfix" id="tv">
         <div id="a1"></div>
