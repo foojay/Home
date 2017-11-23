@@ -43,46 +43,48 @@ excerpt:  ActiveMQ-Spring消息发送
 
     <!-- ActiveMQ的连接实现类 -->
     <bean id="targetConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">  
-        <property name="brokerURL" value="tcp://localhost:61616"/>  
-    </bean>    
-    <!-- Spring用于管理真正的ConnectionFactory的ConnectionFactory -->  
-    <bean id="connectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">  
-        <property name="targetConnectionFactory" ref="targetConnectionFactory"/>  
-    </bean> 
-    <!-- Spring提供的JMS工具类，它可以进行消息发送、接收等 -->  
-    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">  
-        <property name="connectionFactory" ref="connectionFactory"/>  
-    </bean>   
-    <!--这个是队列目的地-->  
-    <bean id="destination" class="org.apache.activemq.command.ActiveMQTopic">  
-        <constructor-arg>  
-            <value>topic_js2</value>  
-        </constructor-arg>  
-    </bean>
-    或者：
-    <bean id="queueDestination" class="org.apache.activemq.command.ActiveMQQueue">  
-        <constructor-arg>  
-            <value>queue</value>  
-        </constructor-arg>  
-    </bean>
-
-
+    <property name="brokerURL" value="tcp://localhost:61616"/>  
+    <property name="userName" value="admin"/>  
+    <property name="password" value="admin"/> 
+    </bean>     
+        <!-- Spring用于管理真正的ConnectionFactory的ConnectionFactory -->  
+        <!-- 配置JMS连接工长 -->
+       <bean id="connectionFactory"
+        class="org.springframework.jms.connection.CachingConnectionFactory">
+        <constructor-arg ref="targetConnectionFactory" />
+        <property name="sessionCacheSize" value="100" />
+       </bean>
+        <!-- Spring提供的JMS工具类，它可以进行消息发送、接收等 -->  
+        <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">  
+            <property name="connectionFactory" ref="connectionFactory"/>  
+        </bean>   
+        <!--这个是队列目的地-->  
+        <bean id="destination" class="org.apache.activemq.command.ActiveMQTopic">  
+            <constructor-arg>  
+                <value>topic_js2</value>  
+            </constructor-arg>  
+        </bean>
+        或者：
+        <bean id="queueDestination" class="org.apache.activemq.command.ActiveMQQueue">  
+            <constructor-arg>  
+                <value>queue</value>  
+            </constructor-arg>  
+        </bean>
     生产者的消息创建bean：
     <!-- 自定义发送消息bean -->
     <bean id="producerService" class="com.ds.spring.activemq.consumer.ProducerServiceImpl"></bean>  
 
 
 
-消费者消息监听bean：
-
-    <!-- 自定义消息监听器 -->  
-    <bean id="consumerMessageListener" class="com.ds.spring.activemq.producer.ConsumerMessageListener"/>  
-    <!-- 消息监听容器 -->  
-    <bean id="jmsContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">  
-        <property name="connectionFactory" ref="connectionFactory" />  
-        <property name="destination" ref="destination" />  
-        <property name="messageListener" ref="consumerMessageListener" /> 
-    </bean>
+    消费者消息监听bean：
+        <!-- 自定义消息监听器 -->  
+        <bean id="consumerMessageListener" class="com.ds.spring.activemq.producer.ConsumerMessageListener"/>  
+        <!-- 消息监听容器 -->  
+        <bean id="jmsContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">  
+            <property name="connectionFactory" ref="connectionFactory" />  
+            <property name="destination" ref="destination" />  
+            <property name="messageListener" ref="consumerMessageListener" /> 
+        </bean>
 
 
 3.自定义生产者 
@@ -91,7 +93,6 @@ excerpt:  ActiveMQ-Spring消息发送
 由于在配置文件中已经定义了连接，jmsTemplate和destination。jmsTemplate里边内容比较丰富，他帮你完成了session和producer的创建，只需要调用send()方法就一步到位了。本例中使用的spring的注解，所以要在spring的配置中开启注解扫描。
 
     <context:component-scan base-package="com.ds" /> 
-
     package com.ds.spring.activemq.consumer;
     import javax.jms.Destination;
     import javax.jms.JMSException;
