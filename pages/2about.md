@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: 关于我
 permalink: /about/
@@ -10,7 +10,7 @@ icon: glyphicon-heart
 
 * email：[1007393637@qq.com](mailto:{{ site.email }})
 * QQ：1007393637
-* 技术网站
+* 技术网站:
   [ImportNew](http://www.importnew.com)
 
   
