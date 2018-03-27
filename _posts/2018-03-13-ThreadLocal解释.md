@@ -96,3 +96,4 @@ get函数该函数用来获取与当前线程关联的ThreadLocal的值，函数
 
     总之 ThreadLocal真的不是用来解决对象共享访问问题的，而主要是提供了保持对象的方
     法和避免参数传递的方便的对象访问方式。 
+    ThreadLocal自身不会保存这些特定的数据资源，而是由每个线程自己来管理。每个Thread对象都有一个ThreadLocal.ThreadLocalMap类型的名为threadLocals的实例变量，它保存了ThreadLocal设置给这个线程的数据。当通过ThreadLocal的set(data)方法来设置数据的时候，ThreadLocal会首先获取当前线程的引用，然后通过该引用获取当前线程持有的threadLocals，最后，以当前ThreadLocal作为key，将要设置的数据设置到当前线程。
