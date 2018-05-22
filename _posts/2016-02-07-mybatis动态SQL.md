@@ -154,6 +154,155 @@ xml:
 纵观mybatis的动态SQL， 强大而简单， 相信大家简单看一下就能使用了。
 
 
+
+
+### 例子
+
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+    <mapper namespace="weixin.office.dao.CompetitionPlatformDao" >
+     <resultMap id="BaseResultMap" type="CompetitionPlatform" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="special_entries_id" property="specialEntriesId" jdbcType="VARCHAR" />
+    <result column="special_model_name" property="specialModelName" jdbcType="VARCHAR" />
+    <result column="videoUrl" property="videourl" jdbcType="VARCHAR" />
+    <result column="installationUrl" property="installationurl" jdbcType="VARCHAR" />
+    <result column="videoCount" property="videocount" jdbcType="INTEGER" />
+    <result column="installationCount" property="installationcount" jdbcType="INTEGER" />
+    </resultMap>
+
+    <select id="getList"  resultMap="BaseResultMap" >
+    select * from competition_platform
+     </select>
+     <insert id="save" parameterType="weixin.office.entity.CompetitionPlatform">
+        INSERT  INTO  competition_platform (<include refid="key"/>) VALUES (<include
+          refid="value"/>);
+    </insert>
+
+    <select id="getListSearch" parameterType="CompetitionPlatform" resultMap="BaseResultMap">
+    select * from  competition_platform
+    <where>
+      <choose>
+        <when test="specialModelName!=null">
+          special_model_name=#{specialModelName}
+        </when>
+        <when test="videourl!=null">
+          and  videoUrl=#{videourl}
+        </when>
+        <otherwise>
+          1=1
+        </otherwise>
+      </choose>
+      order by  videoCount desc
+    </where>
+    </select>
+
+    <update id="updateItem" parameterType="Map">
+      UPDATE  competition_platform
+      <set >
+        <trim prefixOverrides=",">
+          <choose>
+            <when test="modelName!=null">
+              special_model_name=#{modelName},
+            </when>
+          </choose>
+         </trim>
+      </set>
+      <trim prefix="where" suffixOverrides="and |or">
+         <choose>
+            <when test="id!=null">
+              id=#{id}
+            </when>
+         </choose>
+      </trim>
+      </update>
+
+    <select id="getByIds" parameterType="List" resultMap="BaseResultMap">
+    SELECT * from competition_platform cp where  cp.special_entries_id in <include
+          refid="ids"></include>;
+    </select>
+
+     <insert id="saveAll"  parameterType="List">
+    
+    INSERT  INTO   competition_platform(id,special_entries_id,special_model_name) VALUES
+    <foreach collection="list" item="item" separator=",">
+    (
+    
+          #{item.id},
+    
+          #{item.specialEntriesId},
+    
+          #{item.specialModelName}
+    
+      )
+    </foreach>
+    </insert>
+
+
+    <sql id="key">
+    <trim suffixOverrides=",">
+      <if test="id!=null">
+        id,
+      </if>
+      <if test="specialEntriesId!=null">
+        special_entries_id,
+      </if>
+      <if test="specialModelName!=null">
+        special_model_name,
+      </if>
+      <if test="videourl!=null">
+        videoUrl,
+      </if>
+      <if test="installationurl!=null">
+        installationUrl,
+      </if>
+      <if test="videocount!=null">
+        videoCount,
+      </if>
+      <if test="installationcount!=null">
+        installationCount,
+      </if>
+    </trim>
+    </sql>
+  
+    <sql id="value">
+    <trim suffixOverrides=",">
+      <if test="id!=null">
+        #{id},
+      </if>
+      <if test="specialEntriesId!=null">
+        #{specialEntriesId},
+      </if>
+       <if test="specialModelName!=null">
+         #{specialModelName},
+       </if>
+      <if test="videourl!=null">
+         #{videourl},
+      </if>
+      <if test="installationurl!=null">
+        #{installationurl},
+      </if>
+      <if test="videocount!=null">
+        #{videocount},
+      </if>
+      <if test="installationcount!=null">
+        #{installationcount},
+      </if>
+    </trim>
+    </sql>
+
+    <sql id="ids">
+    <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+       #{item}
+    </foreach>
+    </sql>
+    </mapper>
+
+
+
+
+
+
 ### 参考文献
 
 *[南柯梦](http://www.cnblogs.com/dongying/p/4092662.html)
