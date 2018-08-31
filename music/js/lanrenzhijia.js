@@ -3,9 +3,9 @@ $(document).ready(function(){
 
 
   var playlist = [{
-      title:"Hidden",
-      artist:"Miaow",
-      mp3:"http://demo.lanrenzhijia.com/2014/music0917/images/i1.mp3",
+      title:"我们的世界",
+      artist:"薛之谦",
+      mp3:"http://music.163.com/song/media/outer/url?id=169207.mp3",
       autoPlay:true,
       poster: "http://33.media.tumblr.com/0b35eb42176eedbf4a96e52efa760875/tumblr_mxp7a0v3fr1rqx86wo1_500.png"
     },{
