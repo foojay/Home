@@ -1,0 +1,245 @@
+---
+title: 直播
+icon: glyphicon-music
+permalink: /video/
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Foojay's Blog</title>
+    <meta name="keywords" content="Foojay's Blog" />
+    <meta name="description" content="Foojay's Blog" />
+    <meta name="author" content="Foojay" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+    <meta name="copyright" content="Foojay's Blog" />
+    <script type="text/javascript" src="http://www.ckplayer.com/static/js/jq1.9.1.js"></script>
+    <link href="http://www.ckplayer.com/static/css/example.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        /* CSS Document */
+        body, h1, h2, h3, h4, h5, h6, hr, p,
+        blockquote, /* structural elements 结构元素 */
+        dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+        pre, /* text formatting elements 文本格式元素 */
+        form, fieldset, legend, button, /* form elements 表单元素 */
+        th, td, /* table elements 表格元素 */
+        img {
+            border: medium none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li, ol {
+            list-style: none;
+            vertical-align: bottom;
+        }
+
+        em {
+            font-style: normal;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        a, input, textarea, select, option, button, .logo, #icon_num li, #icon_num_top li, .blk_29 .LeftBotton, .blk_29 .RightBotton, #cal #cm .cell, .work_lcontent img, .work_detail img, .brow img {
+            cursor: pointer;
+        }
+
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        *html .clearfix {
+            height: 1%;
+        }
+
+        * + html .clearfix {
+            height: 1%;
+        }
+
+        .clearfix {
+            display: inline-block;
+        }
+        /* Hide from IE Mac */
+        .clearfix {
+            display: block;
+        }
+
+        #playerlist a {
+            text-decoration: none;
+            outline: none;
+            color: #FFF;
+        }
+
+        #a1 {
+            width: 770px;
+            height: 480px;
+            float: left;
+        }
+        #a2, #a3 {
+	width: 10px;
+	height: 480px;
+	float: left;
+	color: #FFF;
+	background-color: #666;
+	line-height: 480px;
+	cursor:pointer;
+        }
+        #playerlist {
+            width: 190px;
+            height: 480px;
+            overflow: auto;
+            float: left;
+            background: #262626;
+            font-size: 12px;
+        }
+
+            #playerlist li {
+                list-style: none;
+                height: 40px;
+                line-height: 40px;
+                padding-bottom: 2px;
+                border-bottom: 1px solid #333;
+                overflow: hidden;
+                padding-left: 5px;
+				cursor:pointer;
+            }
+
+                #playerlist li:last-child {
+                    border-bottom: none;
+                }
+
+                #playerlist li.crent {
+                    background: #1C1C1C;
+                }
+
+                #playerlist li.crent a {
+                   color: #FF7900;
+                }
+
+                #playerlist li a {
+                    display: block;
+                    color: #fff;
+                }
+
+                #playerlist li img {
+                    vertical-align: middle;
+                    height: 40px;
+                    margin: 0 20px 0 0;
+                }
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="http://www.ckplayer.com/static/js/laycode/laycode2.js"></script>
+   <div class="c_title"><font size=+1 color=red><a href="http://foojay520.tk" style="text-decoration:none;">返回首页</a></font>&nbsp;&nbsp;&nbsp;<font size=+1 color=red><!--<a href="javascript:void(0)" id="view_cs" style="text-decoration:none;">儿子英语测试</a></font></div>
+    <div class="c_title"><marquee align="absmiddle"><font size=+3 color=red><a href="http://foojay520.tk">欢迎访问我的博客~!~</a></font></marquee>
+	<div id="test" style="display:none"><iframe height=498 width=510 src='http://player.youku.com/embed/XMjYzMjA4OTg5Ng==' frameborder=0 'allowfullscreen'></iframe></div>-->
+	</div>
+    <div class="clearfix" id="tv">
+        <div id="a1"></div>
+        <!-- <div id="a2" onclick="Close();" title="收起列表">&gt;&gt;</div>
+        <div id="a3" onclick="Open();" style="display:none" title="展开列表">&lt;&lt;</div> -->
+        <ul id="playerlist">
+         </ul>
+    </div>
+   <script type="text/javascript" src="/ckplayer6.7/ckplayer/ckplayer.js"></script>
+    <script type="text/javascript">
+    var tv={};
+    var nowD = 0;//目前播放的视频的编号(在数组里的编号)
+    $(function(){
+   
+        $.getJSON("../ckplayer6.7/tvlist2.json",{},function(data){
+        	tv=data.list;
+           for (var i = 0; i < data.list.length; i++) {
+        	   var aa="vli_"+i;
+        	   var html="<li class='ll' id='"+aa+"' num='"+i+"' n='"+data.list[i].name+"' u='"+data.list[i].url+"'><font size='3' color='skyblue'>"+data.list[i].name+"</font></li>";
+			$("#playerlist").append(html);
+			
+		}
+           playvideo(0,data.list[0].url);
+        });
+       
+    	$(".ll").live("click",function(){
+    		
+    		var num=$(this).attr("num");
+    		var url=$(this).attr("u");
+    		playvideo(parseInt(num),url);
+    	});
+		
+		$("#view_cs").click(function(){
+		   $("#test").show();
+		});
+    	
+    	
+    });
+        function playerstop() {
+            setTimeend();
+        }
+        function setTimeend() {//获取下一部视频的播放ID
+            nowD++;
+            if (nowD >= videoarr.length ) {
+                nowD = 0;
+            }
+            playvideo(nowD);
+        }
+/*         function Close() {//关闭播放列表
+            CKobject._K_('a2').style.display = 'none';
+            CKobject._K_('playerlist').style.display = 'none';
+            CKobject._K_('a3').style.display = 'block';
+            CKobject._K_('a1').style.width = '970px';
+            CKobject.getObjectById('ckplayer_a1').width =970;
+        }
+        function Open() {//打开播放列表
+            CKobject._K_('a2').style.display = 'block';
+            CKobject._K_('playerlist').style.display = 'block';
+            CKobject._K_('a3').style.display = 'none';
+            CKobject._K_('a1').style.width = '770px';
+            CKobject.getObjectById('ckplayer_a1').width =770;
+        } */
+       
+        var frontTime = false;//前置广告倒计时是否在运行中
+        var frontHtime = false;//后置广告是否在进行中
+        function playvideo(n,url) {
+        	var a={};
+        	a.url=url;
+            nowD = n;
+            /* var flashvars = {
+                f: videoarr[n],
+                c: 0,
+                p: 1,
+                e: 0,
+                my_url: encodeURIComponent(window.location.href)
+            }; */
+            var flashvars={
+            		f:'../ckplayer6.7/ckplayer/m3u8.swf',
+            		a:a.url,
+            		s:4,
+            		c:0,
+            		lv:1,
+            		p:1
+            		};
+            for (i = 0; i < tv.length; i++) {//这里是用来改变右边列表背景色
+                if (i != nowD) {
+                    CKobject._K_('vli_' + i).style.backgroundColor = '#262626';
+                }
+                else {
+                    CKobject._K_('vli_' + i).style.backgroundColor = '#DAF2FF';
+                }
+            }
+            var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+            var video=[a.url];
+           // var video = ['http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4'];
+            CKobject.embed('../ckplayer6.7/ckplayer/ckplayer.swf','a1' ,'ckplayer_a1','100%','100%',false, flashvars ,video, params);
+           //CKobject.embed('/ckplayer6.7/ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', false, flashvars, html5arr[n]);
+        } 
+
+    </script>
+</body>
+
+</html>
