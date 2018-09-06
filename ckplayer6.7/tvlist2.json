@@ -1,5 +1,8 @@
 {
     "list": [{
+        "url": "http://adtv.ercdn.net/adsport1/adsport1_720p.m3u8",
+        "name": "AD Sport 1 HD"
+    }, {
         "url": "http://adtv.ercdn.net/adsport2/adsport2_720p.m3u8",
         "name": "AD Sport 2 HD"
     }, {
