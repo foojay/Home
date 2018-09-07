@@ -4,38 +4,146 @@ icon: glyphicon-music
 permalink: /video/
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Foojay's Blog</title>
+    <meta name="keywords" content="Foojay's Blog" />
+    <meta name="description" content="Foojay's Blog" />
+    <meta name="author" content="Foojay" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="Foojay's Blog" />
+    <script type="text/javascript" src="http://www.ckplayer.com/static/js/jq1.9.1.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-responsive-container-plugin@1.0.0/dist/clappr-responsive-container-plugin.js"></script>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://www.ckplayer.com/static/css/example.css" rel="stylesheet" type="text/css">
     <style type="text/css">
+        /* CSS Document */
+        body, h1, h2, h3, h4, h5, h6, hr, p,
+        blockquote, /* structural elements 结构元素 */
+        dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+        pre, /* text formatting elements 文本格式元素 */
+        form, fieldset, legend, button, /* form elements 表单元素 */
+        th, td, /* table elements 表格元素 */
+        img {
+            border: medium none;
+            margin: 0;
+            padding: 0;
+        }
 
-        #playlist {
+        li, ol {
+            list-style: none;
+            vertical-align: bottom;
+        }
+
+        em {
+            font-style: normal;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        a, input, textarea, select, option, button, .logo, #icon_num li, #icon_num_top li, .blk_29 .LeftBotton, .blk_29 .RightBotton, #cal #cm .cell, .work_lcontent img, .work_detail img, .brow img {
+            cursor: pointer;
+        }
+
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        *html .clearfix {
+            height: 1%;
+        }
+
+        * + html .clearfix {
+            height: 1%;
+        }
+
+        .clearfix {
+            display: inline-block;
+        }
+        /* Hide from IE Mac */
+        .clearfix {
+            display: block;
+        }
+
+        #playerlist a {
+            text-decoration: none;
+            outline: none;
+            color: #FFF;
+        }
+
+        #a1 {
+            width: 770px;
+            height: 480px;
+            float: left;
+        }
+        #a2, #a3 {
+            width: 10px;
+            height: 480px;
+            float: left;
+            color: #FFF;
+            background-color: #666;
+            line-height: 480px;
+            cursor:pointer;
+        }
+        #playerlist {
             width: 190px;
             height: 480px;
             overflow: auto;
+            float: left;
             background: #262626;
             font-size: 12px;
-
         }
 
-        #lf{
-
-            margin-top: -380px;
-            margin-left: -1050px;
+        #playerlist li {
+            list-style: none;
+            height: 40px;
+            line-height: 40px;
+            padding-bottom: 2px;
+            border-bottom: 1px solid #333;
+            overflow: hidden;
+            padding-left: 5px;
+            cursor:pointer;
         }
 
+        #playerlist li:last-child {
+            border-bottom: none;
+        }
 
+        #playerlist li.crent {
+            background: #1C1C1C;
+        }
+
+        #playerlist li.crent a {
+            color: #FF7900;
+        }
+
+        #playerlist li a {
+            display: block;
+            color: #fff;
+        }
+
+        #playerlist li img {
+            vertical-align: middle;
+            height: 40px;
+            margin: 0 20px 0 0;
+        }
     </style>
 </head>
 <body>
+<script type="text/javascript" src="http://www.ckplayer.com/static/js/laycode/laycode2.js"></script>
 <nav class = "navbar navbar-default" role = "navigation">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle = "collapse"  data-target = "#target-menu">
@@ -49,74 +157,110 @@ permalink: /video/
     <div class="collapse navbar-collapse" id = "target-menu">
         <ul class="nav navbar-nav">
             <li><a href="http://foojay520.tk">首页</a></li>
-            <li class="active"><a href="http://foojay520.tk/video/">直播</a></li>
+            <li class="active"><a href="http://tvr.cdn.sx/live.html">直播</a></li>
 
     </div>
 
 </nav>
-<div align=center>
-    <div style="width: 100%" id="da"><span class="label label-primary bf">当前播放：加载中....</span></div>
-    <div id="player" style="width: 50%;height:36%;margin-top: 15px">
+<div class="clearfix" id="tv" align=center>
+    <div id="a1"></div>
+    <!-- <div id="a2" onclick="Close();" title="收起列表">&gt;&gt;</div>
+    <div id="a3" onclick="Open();" style="display:none" title="展开列表">&lt;&lt;</div> -->
+    <ul id="playerlist">
+    </ul>
+</div>
+<script type="text/javascript" src="/ckplayer6.7/ckplayer/ckplayer.js"></script>
+<script type="text/javascript">
+    var tv={};
+    var nowD = 0;//目前播放的视频的编号(在数组里的编号)
+    $(function(){
 
-    </div>
-    <div id="lf">      <div id="playlist">
-    </div></div>
-
-    <script>
-        $(function(){
-            $("#playlist").html("");
-            $.getJSON("../ckplayer6.7/tvlist2.json",{},function(data){
-                for (var i = 0; i < data.list.length; i++) {
-
-                    var
-                            html="<a href='javascript:void(0)' class='list-group-item'   n='"+data.list[i].name+"' u='"+data.list[i].url+"'>"+data.list[i].name+"</a>";
-
-
-                    $("#playlist").append(html);
-
-                }
-
-                    var e=$(".list-group-item").eq(0);
-                    playVideo(data.list[0].url,e)
-                    $(".bf").text("当前播放:"+data.list[0].name);
-
-
-
-
-            });
-
-         $("#playlist").on("click",".list-group-item",function(){
-
-             var e=$(this);
-             var n=e.attr("n");
-             var url =e.attr("u");
-             $(".bf").text("当前播放:"+n);
-             playVideo(url,e);
-         });
-
-            function playVideo(url,e){
-
-                $("#player").html("");
-                $(".list-group-item").removeClass("active");
-                e.addClass("active");
-                var player = new Clappr.Player({
-                    source: url,
-                    poster: "https://i.loli.net/2018/07/30/5b5eb5e73b482.png",
-                    parentId: "#player",
-                    autoPlay:true,
-                    plugins: {
-                        container: [ResponsiveContainer],
-                    }
-
-                });
-
+        $.getJSON("../ckplayer6.7/tvlist2.json",{},function(data){
+            tv=data.list;
+            for (var i = 0; i < data.list.length; i++) {
+                var aa="vli_"+i;
+                var html="<li class='ll' id='"+aa+"' num='"+i+"' n='"+data.list[i].name+"' u='"+data.list[i].url+"'><font size='3' color='skyblue'>"+data.list[i].name+"</font></li>";
+                $("#playerlist").append(html);
 
             }
-
-
+            playvideo(0,data.list[0].url);
         });
 
-    </script>
-</div>
+        $("#playerlist").on("click",".ll",function(){
+
+            var num=$(this).attr("num");
+            var url=$(this).attr("u");
+            playvideo(parseInt(num),url);
+        });
+
+        $("#view_cs").click(function(){
+            $("#test").show();
+        });
+
+
+    });
+    function playerstop() {
+        setTimeend();
+    }
+    function setTimeend() {//获取下一部视频的播放ID
+        nowD++;
+        if (nowD >= videoarr.length ) {
+            nowD = 0;
+        }
+        playvideo(nowD);
+    }
+    /*         function Close() {//关闭播放列表
+     CKobject._K_('a2').style.display = 'none';
+     CKobject._K_('playerlist').style.display = 'none';
+     CKobject._K_('a3').style.display = 'block';
+     CKobject._K_('a1').style.width = '970px';
+     CKobject.getObjectById('ckplayer_a1').width =970;
+     }
+     function Open() {//打开播放列表
+     CKobject._K_('a2').style.display = 'block';
+     CKobject._K_('playerlist').style.display = 'block';
+     CKobject._K_('a3').style.display = 'none';
+     CKobject._K_('a1').style.width = '770px';
+     CKobject.getObjectById('ckplayer_a1').width =770;
+     } */
+
+    var frontTime = false;//前置广告倒计时是否在运行中
+    var frontHtime = false;//后置广告是否在进行中
+    function playvideo(n,url) {
+        var a={};
+        a.url=url;
+        nowD = n;
+        /* var flashvars = {
+         f: videoarr[n],
+         c: 0,
+         p: 1,
+         e: 0,
+         my_url: encodeURIComponent(window.location.href)
+         }; */
+        var flashvars={
+            f:'../ckplayer6.7/ckplayer/m3u8.swf',
+            a:a.url,
+            s:4,
+            c:0,
+            lv:1,
+            p:1
+        };
+        for (i = 0; i < tv.length; i++) {//这里是用来改变右边列表背景色
+            if (i != nowD) {
+                CKobject._K_('vli_' + i).style.backgroundColor = '#262626';
+            }
+            else {
+                CKobject._K_('vli_' + i).style.backgroundColor = '#DAF2FF';
+            }
+        }
+        var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+        var video=[a.url];
+        // var video = ['http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4'];
+        CKobject.embed('../ckplayer6.7/ckplayer/ckplayer.swf','a1' ,'ckplayer_a1','100%','100%',false, flashvars ,video, params);
+        //CKobject.embed('/ckplayer6.7/ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', false, flashvars, html5arr[n]);
+    }
+
+</script>
 </body>
+
 </html>
