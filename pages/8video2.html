@@ -55,17 +55,30 @@ permalink: /video2/
 
 </nav>
 <div align=center>
-    <div style="width: 100%" id="da"><span class="label label-primary bf">当前播放：加载中....</span></div>
+    <div style="width: 100%" id="da"><span class="label label-primary bf">不支持手机端播放</span></div>
     <div id="player" style="width: 50%;height:36%;margin-top: 15px">
 
     </div>
     <div id="lf">      <div id="playlist">
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
+	<a href="javascript:void(0)" class="list-group-item">加载中....</a>
     </div></div>
 
     <script>
         $(function(){
             $("#playlist").html("");
             $.getJSON("../ckplayer6.7/tvlist2.json",{},function(data){
+			 $(".bf").text("当前播放:"+data.list[0].name);
                 for (var i = 0; i < data.list.length; i++) {
 
                     var
@@ -78,7 +91,7 @@ permalink: /video2/
 
                     var e=$(".list-group-item").eq(0);
                     playVideo(data.list[0].url,e)
-                    $(".bf").text("当前播放:"+data.list[0].name);
+                   
 
 
 
