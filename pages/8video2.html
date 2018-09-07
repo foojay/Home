@@ -93,7 +93,7 @@ permalink: /video2/
             
 
             
-           if(flag) ;
+           if(flag){
             $("#playlist").html("");
             $.getJSON("../ckplayer6.7/tvlist2.json",{},function(data){
 			 $(".bf").text("当前播放:"+data.list[0].name);
@@ -115,6 +115,7 @@ permalink: /video2/
 
 
             });
+			}
 
          $("#playlist").on("click",".list-group-item",function(){
 
