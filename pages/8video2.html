@@ -76,7 +76,7 @@ permalink: /video2/
 
     <script>
         $(function(){
-		    function IsPC() {
+		    
                 var userAgentInfo = navigator.userAgent;
                 var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPod","iPad"];
                 var flag = true;
@@ -89,11 +89,11 @@ permalink: /video2/
                 if(window.screen.width>=768){
                     flag = true;
                 }
-                return flag;
-            };
+               
+            
 
             
-           if(IsPC()) ;
+           if(flag) ;
             $("#playlist").html("");
             $.getJSON("../ckplayer6.7/tvlist2.json",{},function(data){
 			 $(".bf").text("当前播放:"+data.list[0].name);
