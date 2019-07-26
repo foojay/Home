@@ -34,7 +34,7 @@
               <li>
             {% endif %}
 			{% if p.url =="/photo/" %}
-			   <a href="http://39.104.206.88/"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
+			   <a href="http://www.readtiming.com/photo/list"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
 			 {% else %}
 			    <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
 			 {% endif %}
